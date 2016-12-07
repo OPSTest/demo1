@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+  <HistoryDateTime>2015-12-03 09:09:11:865</HistoryDateTime>
+  <Request>
+    <Name>SunAdd</Name>
+    <CategoryName>Local_Order_InvoiceDelivery</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders />
+    <RequestUrl>http://localhost:24868/InvoiceDelivery/sunadd</RequestUrl>
+    <RequestParameters>{"In1":1,"In2":2}</RequestParameters>
+    <RequestContentType>application/json</RequestContentType>
+    <ClientCertInfo>
+      <StoreName />
+      <StoreLocation />
+      <FindType />
+      <FindValue />
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks />
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>200:OK</Status>
+    <ResponseHeaders>SOA20-Service-AppId: 100001114
+SOA20-Service-HostIP: 10.32.105.123
+SOA20-Response-Status: Success
+X-SourceFiles: =?UTF-8?B?RDpcU291cmNlQ29kZVxjdHJpcFxIb3RlbC5PcmRlci5DdXN0b21lclxIb3RlbC5PcmRlci5DdXN0b21lci5XU1xTZXJ2aWNlXFNlcnZpY2UuSG9zdFxJbnZvaWNlRGVsaXZlcnlcc3VuYWRk?=
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: CTrip/SOA2.0 Win32NT/.NET,ASP.NET
+Date: Wed, 02 Dec 2015 12:34:08 GMT
+Content-Length: 114
+
+</ResponseHeaders>
+    <ResponseString>{"ResponseStatus":{"Timestamp":"\/Date(1449059648972 0800)\/","Ack":"Success","Errors":[],"Extension":[]},"Sum":3}</ResponseString>
+    <TotalExecutionTime>260.026</TotalExecutionTime>
+  </Response>
+  <Remarks />
+</History>
+</Histories>

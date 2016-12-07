@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ToolInfos>
+  <ToolInfo>
+    <Id>20130807175435</Id>
+    <ToolName>notepad++.exe</ToolName>
+    <ToolDisplayName>notepad++</ToolDisplayName>
+    <ToolPath>D:\Program Files (x86)\Notepad++\</ToolPath>
+    <UserName>
+    </UserName>
+    <PassWord>
+    </PassWord>
+    <Domain>
+    </Domain>
+  </ToolInfo>
+  <ToolInfo>
+    <Id>20140425182505</Id>
+    <ToolName>netmon.exe</ToolName>
+    <ToolDisplayName>netmon</ToolDisplayName>
+    <ToolPath>C:\Program Files\Microsoft Network Monitor 3\</ToolPath>
+    <UserName>
+    </UserName>
+    <PassWord>
+    </PassWord>
+    <Domain>
+    </Domain>
+  </ToolInfo>
+  <ToolInfo>
+    <Id>20140425182659</Id>
+    <ToolName>MessageAnalyzer.exe</ToolName>
+    <ToolDisplayName>MessageAnalyzer</ToolDisplayName>
+    <ToolPath>C:\Program Files\Microsoft Message Analyzer\</ToolPath>
+    <UserName>
+    </UserName>
+    <PassWord>
+    </PassWord>
+    <Domain>
+    </Domain>
+  </ToolInfo>
+  <ToolInfo>
+    <Id>20140428092730</Id>
+    <ToolName>xts.exe</ToolName>
+    <ToolDisplayName>xts</ToolDisplayName>
+    <ToolPath>D:\AP\xts\</ToolPath>
+    <UserName>
+    </UserName>
+    <PassWord>
+    </PassWord>
+    <Domain>
+    </Domain>
+  </ToolInfo>
+  <ToolInfo>
+    <Id>20140430164709</Id>
+    <ToolName>StikyNot.exe</ToolName>
+    <ToolDisplayName>StikyNot</ToolDisplayName>
+    <ToolPath>C:\Windows\system32\</ToolPath>
+    <UserName>
+    </UserName>
+    <PassWord>
+    </PassWord>
+    <Domain>
+    </Domain>
+  </ToolInfo>
+  <ToolInfo>
+    <Id>20151208114810</Id>
+    <ToolName>Fiddler.exe</ToolName>
+    <ToolDisplayName>Fiddler</ToolDisplayName>
+    <ToolPath>D:\Software\Fiddler2\</ToolPath>
+  </ToolInfo>
+  <ToolInfo>
+  <Id>20160113103559</Id>
+  <ToolName>MySQLWorkbench.exe</ToolName>
+  <ToolDisplayName>MySQLWorkbench</ToolDisplayName>
+  <ToolPath>D:\Software\MySQL Workbench 6.3.4 CE (winx64)\</ToolPath>
+</ToolInfo>
+</ToolInfos>

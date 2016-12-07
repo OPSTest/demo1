@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HotKeys>
+	<HotKey>
+		<Name>Show</Name>
+		<KeyId>110</KeyId>
+		<PrimaryKey>Alt</PrimaryKey>
+		<SecondKey>D1</SecondKey>
+		<DefaultPrimaryKey>Alt</DefaultPrimaryKey>
+		<DefaultSecondKey>D1</DefaultSecondKey>
+		<KeyType>1</KeyType>
+		<Description>Show window</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Hide</Name>
+		<KeyId>111</KeyId>
+		<PrimaryKey>Alt</PrimaryKey>
+		<SecondKey>D2</SecondKey>
+		<DefaultPrimaryKey>Alt</DefaultPrimaryKey>
+		<DefaultSecondKey>D2</DefaultSecondKey>
+		<KeyType>1</KeyType>
+		<Description>Hide window</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Exit</Name>
+		<KeyId>112</KeyId>
+		<PrimaryKey>Alt</PrimaryKey>
+		<SecondKey>D3</SecondKey>
+		<DefaultPrimaryKey>Alt</DefaultPrimaryKey>
+		<DefaultSecondKey>D3</DefaultSecondKey>
+		<KeyType>1</KeyType>
+		<Description>Exit Application</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+</HotKeys>

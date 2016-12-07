@@ -1,0 +1,10 @@
+Error(2014-04-03 09:40:21)
+[Message]:Could not load type 'Sunny.Lib.StartToolInfo' from assembly 'Sunny.Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54a141ccd6ada35a'.
+[StackTrace]:   at Sunny.ToolStart.ToolStartMain.LoadConfiguration()
+   at Sunny.ToolStart.ToolStartMain..ctor()
+
+Error(2014-04-03 09:43:49)
+[Message]:Could not load type 'Sunny.Lib.StartToolInfo' from assembly 'Sunny.Lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54a141ccd6ada35a'.
+[StackTrace]:   at Sunny.ToolStart.ToolStartMain.LoadConfiguration()
+   at Sunny.ToolStart.ToolStartMain..ctor()
+

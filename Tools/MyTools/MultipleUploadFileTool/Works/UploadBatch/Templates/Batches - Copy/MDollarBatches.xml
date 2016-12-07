@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="MDollarOffsetLineItem">
+    <Processors>
+      <Processor name="MDollarOffsetLineItem" category="MDollar" />
+    </Processors>
+    <Input>
+      <Field name="MDollarOffsetLineItem" internalName="__LineNumber__" type="Int32" />
+      <Field name="Puid" internalName="Puid" type="String" />
+      <Field name="OrderId" internalName="OrderId" type="Guid" />
+      <Field name="LineItemID" internalName="LineItemID" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="RefundOrder">
+    <Processors>
+      <Processor name="RefundOrder" category="MDollar" />
+    </Processors>
+    <Input>
+      <Field name="RefundOrder" internalName="__LineNumber__" type="Int32" />
+      <Field name="Puid" internalName="Puid" type="String" />
+      <Field name="OrderId" internalName="OrderId" type="Guid" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="MDollarTestConnection">
+    <Processors>
+      <Processor name="MDollarTestConnection" category="MDollar" />
+    </Processors>
+    <Input>
+      <Field name="MDollarTestConnection" internalName="__LineNumber__" type="Int32" />
+      <Field name="Puid" internalName="Puid" type="String" />
+      <Field name="OrderId" internalName="OrderId" type="Guid" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+      <Field name ="Payload" internalName="ResultPayload" type="String" optional="true" />
+    </Output>
+  </Template>
+</Templates>

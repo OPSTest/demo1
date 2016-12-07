@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ToolInfos>
+  <ToolInfo>
+    <Id>20140829112402</Id>
+    <ToolName>open.bat</ToolName>
+    <ToolDisplayName>open</ToolDisplayName>
+    <ToolPath>%CurrentDir%\Tools\scripts\</ToolPath>
+    <UserName>
+    </UserName>
+    <PassWord>
+    </PassWord>
+    <Domain>
+    </Domain>
+  </ToolInfo>
+  <ToolInfo>
+  <Id>20151224141829</Id>
+  <ToolName>reindex.bat</ToolName>
+  <ToolDisplayName>reindex</ToolDisplayName>
+  <ToolPath>D:\IISApps\CodeSearch\</ToolPath>
+</ToolInfo>
+</ToolInfos>

@@ -1,0 +1,4 @@
+Error(2016-01-05 17:53:04:648)
+[Message]:未将对象引用设置到对象的实例。
+[StackTrace]:   在 Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) 位置 d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:行号 372
+

@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+    <HistoryDateTime>2015-12-14 19:43:06:250</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;26120971&lt;/OrderID&gt;
+&lt;SendType&gt;SGR&lt;/SendType&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 891
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 14 Dec 2015 11:43:06 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="0ebfc1b9-fe3e-4d44-9beb-c78f0ffbb13e" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:26120971已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>46790.6786</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-14 19:50:56:982</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;26120971&lt;/OrderID&gt;
+&lt;SendType&gt;SGR&lt;/SendType&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 891
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 14 Dec 2015 11:50:56 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="4d471024-df84-4b1c-927b-b6a959ea2391" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:26120971已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>95657.564800000007</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-14 19:52:28:208</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;26120971&lt;/OrderID&gt;
+&lt;SendType&gt;SGR&lt;/SendType&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 891
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 14 Dec 2015 11:52:28 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="9ae3e000-6319-49cc-af90-8796a800a05e" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:26120971已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>61568.156200000005</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-14 20:21:39:816</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;300000152&lt;/OrderID&gt;
+&lt;SendType&gt;SGR&lt;/SendType&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 892
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 14 Dec 2015 12:21:39 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="97008ff4-db60-418e-8d57-1e9cea56ce7c" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:300000152已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>55690.5685</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-25 10:45:36:195</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;300000150&lt;/OrderID&gt;
+&lt;SendType&gt;SGR&lt;/SendType&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 892
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Fri, 25 Dec 2015 02:45:36 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="e33b81fa-e3e7-4612-bb4b-edd3609a2c18" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:300000150已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>25732.573</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-25 10:50:05:380</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;1803055645&lt;/OrderID&gt;
+&lt;SendType&gt;SGR&lt;/SendType&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 893
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Fri, 25 Dec 2015 02:50:05 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="eb966f4b-d081-44c5-bac2-07027458259e" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:1803055645已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>67202.7196</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-25 11:42:23:512</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;300000150&lt;/OrderID&gt;
+&lt;SendType&gt;HDC&lt;/SendType&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 892
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Fri, 25 Dec 2015 03:42:23 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="7ae28632-eb2d-46f3-ab3a-67af6d8e1dc0" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:300000150已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>31548.1545</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-28 13:40:35:557</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;300010395&lt;/OrderID&gt;
+&lt;SendType&gt;SGR&lt;/SendType&gt;
+&lt;Language&gt;ENG&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 892
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 28 Dec 2015 05:40:35 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="f04b0e86-5bfb-4067-a7aa-c655900d5c33" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:300010395已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>27152</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-28 13:42:56:952</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;300010395&lt;/OrderID&gt;
+&lt;SendType&gt;SGR&lt;/SendType&gt;
+&lt;Language&gt;ENG&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 892
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 28 Dec 2015 05:42:56 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="95e06c95-e512-412e-bff6-344a862d6cef" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:300010395已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>85836</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-28 15:00:00:801</HistoryDateTime>
+    <Request>
+      <Name>SendEMailToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;26120971&lt;/OrderID&gt;
+&lt;SendType&gt;DPY&lt;/SendType&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 795
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 28 Dec 2015 07:00:00 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" Timestamp="2015-12-28 15:00:00:79611" RequestID="46c096db-ec7e-4ba6-9d5c-8ede63764112" ResultCode="Fail" ResultNo="110254000001" ResultMsg="不存在此订单:26120971" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>613</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+  <HistoryDateTime>2015-12-28 15:01:03:929</HistoryDateTime>
+  <Request>
+    <Name>SendEMailToCustomer</Name>
+    <CategoryName>Local_Order_ProcessService</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders />
+    <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+    <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendEMailToCustomerRequest" Environment="fws"/&gt;
+&lt;SendEMailToCustomerRequest&gt;
+&lt;OrderID&gt;300000150&lt;/OrderID&gt;
+&lt;SendType&gt;DPY&lt;/SendType&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;Email&gt;qxsun@ctrip.com&lt;/Email&gt;
+&lt;/SendEMailToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+    <RequestContentType>text/xml</RequestContentType>
+    <ClientCertInfo>
+      <StoreName />
+      <StoreLocation />
+      <FindType />
+      <FindValue />
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks>SendType:
+	 TIC	//返现邮件
+	 SGR	//预订确认邮件
+	 HDC	//暂缓确认邮件
+	 NOS	//noshow通知邮件
+	 CJY	//成交通知邮件
+	 CAL	//酒店取消邮件
+	 DPY	//邀请点评邮件
+Language:
+         GB
+         ENG</Remarks>
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>200:OK</Status>
+    <ResponseHeaders>Content-Length: 892
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 28 Dec 2015 07:01:03 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+    <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="7bdb4e75-0304-4d0e-81f9-3139679f920f" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendEMailToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单:300000150已成功发送Email&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendEMailToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+    <TotalExecutionTime>3317</TotalExecutionTime>
+  </Response>
+</History>
+</Histories>

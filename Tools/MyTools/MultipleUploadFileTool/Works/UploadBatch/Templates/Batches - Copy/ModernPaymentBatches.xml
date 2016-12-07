@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="ModernRemovePaymentInstrument">
+    <Processors>
+      <Processor name="ModernRemovePaymentInstrument" category="Modern" />
+    </Processors>
+    <Input>
+      <Field name="ModernRemovePaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="UniversalAccountId" internalName="UniversalAccountId" type="String" />
+      <Field name="PaymentInstrumentId" internalName="NullablePaymentInstrumentId" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ModernPaymentTestConnection">
+    <Processors>
+      <Processor name="ModernPaymentTestConnection" category="Modern" />
+    </Processors>
+    <Input>
+      <Field name="ModernPaymentTestConnection" internalName="__LineNumber__" type="Int32" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+      <Field name ="Payload" internalName="ResultPayload" type="String" optional="true" />
+    </Output>
+  </Template>
+</Templates>

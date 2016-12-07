@@ -1,0 +1,8 @@
+﻿Commands:
+	-type:
+		1: Norm
+		2: BizToolsTestReport
+
+Example:
+	MailSender.exe -type 1 -FROM "v-susu@microsoft.com" -TO "sunqixinxin@126.com" -CC "v-susu@microsoft.com" -subject "test mail subject" -body "test mail body"
+	MailSender.exe -type 2 -BizOpsTools1BOX 10.156.64.223 -FROM "v-susu@microsoft.com" -TO "v-susu@microsoft.com" -CC "v-susu@microsoft.com" -RESULTFOLDER "D:\Report" -T "csTools.Work BVT" -V "Version 22.171 (Build 2084.0)" -ISDAILYRUN false

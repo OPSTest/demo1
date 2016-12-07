@@ -1,0 +1,20 @@
+[robot_answer_section_start_flag]
+Web Tools:
+URL Encode/Decode: http://tool.chinaz.com/Tools/URLEncode.aspx
+Regex: http://www.freeformatter.com/regex-tester.html
+Base 64 Encrypt/Decrypt: http://tool.chinaz.com/Tools/Base64.aspx
+Guid Generator: https://www.guidgenerator.com/
+Json Parser: http://www.jsoneditoronline.org/
+∏Ò ΩªØ: http://tool.oschina.net/codeformat/html
+[robot_answer_section_end_flag]
+
+[robot_answer_section_start_flag]
+Paths:
+Sunny path: D:\Program Files\Sunny
+host path: C:\Windows\System32\drivers\etc\hosts
+[robot_answer_section_end_flag]
+
+[robot_answer_section_start_flag]
+tests:
+D:\Program Files (x86)\Sunny\Tools\MyTools\WebRequestTool\HttpWebRequestClient.exe
+[robot_answer_section_end_flag]

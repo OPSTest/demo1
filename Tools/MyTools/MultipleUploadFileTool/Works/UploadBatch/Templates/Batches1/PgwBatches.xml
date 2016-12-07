@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+    <Template name="PgwUnbanPMWithEncryptedAccountNumber">
+        <Processors>
+            <Processor name="PgwUnbanPaymentMethod" category="PGW" />
+        </Processors>
+        <Input>
+            <Field name="PgwUnbanPaymentMethod" internalName="_LineNumber_" type="Int32" />
+            <Field name="EncryptedAccountNumber" internalName="EncryptedAccountNumber" type="String" />
+            <Field name="CallingPartner" internalName="CallingPartner" type="String" />
+        </Input>
+        <Output>
+        </Output>
+    </Template>
+    <Template name="PgwTestConnection">
+      <Processors>
+        <Processor name="PgwTestConnection" category="PGW" />
+      </Processors>
+      <Input>
+        <Field name="PgwTestConnection" internalName="_LineNumber_" type="Int32" />
+        <Field name="TestConnectionEchoIn" internalName="TestConnectionEchoIn" type="String" />
+        <Field name="CallingPartner" internalName="CallingPartner" type="Guid" />
+      </Input>
+      <Output>
+        <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+        <Field name="TestConnectionEchoOut" internalName="TestConnectionEchoOut" type="String" />
+      </Output>
+    </Template>
+</Templates>

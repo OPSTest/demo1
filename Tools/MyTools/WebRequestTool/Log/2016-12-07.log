@@ -1,0 +1,16 @@
+Error(2016-12-07 22:00:56:218)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in g:\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2016-12-07 22:01:33:393)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in g:\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2016-12-07 22:06:36:844)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in g:\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2016-12-07 22:11:45:488)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in g:\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ReadLengthOneTime>1024</ReadLengthOneTime>
+  <CommandPrefix>\.</CommandPrefix>
+  <KeyPrefix>[robot_answer_section_start_flag]</KeyPrefix>
+  <KeySuffix>[robot_answer_section_end_flag]</KeySuffix>
+  <MinimumOfSearchLength>3</MinimumOfSearchLength>
+  <AnswerLibraryFilePaths>
+    <string>D:\Program Files (x86)\Sunny\Tools\MyTools\Robot\RobotAnswerInfos\</string>
+  </AnswerLibraryFilePaths>
+  <RobotCommands>
+    <RobotCommand>
+      <Name>no</Name>
+      <Description>None, just testing</Description>
+      <Enabled>1</Enabled>
+      <Remarkes></Remarkes>
+    </RobotCommand>
+    <RobotCommand>
+      <Name>cl</Name>
+      <Description>Clean ehe history</Description>
+      <Enabled>1</Enabled>
+      <Remarkes></Remarkes>
+    </RobotCommand>
+    <RobotCommand>
+      <Name>hp</Name>
+      <Description>Echo help information</Description>
+      <Enabled>1</Enabled>
+      <Remarkes></Remarkes>
+    </RobotCommand>
+    <RobotCommand>
+      <Name>sr</Name>
+      <Description>Search content, we can omit this command, just input the key words</Description>
+      <Enabled>1</Enabled>
+      <Remarkes></Remarkes>
+    </RobotCommand>
+	<RobotCommand>
+      <Name>ls</Name>
+      <Description>List all search files</Description>
+      <Enabled>1</Enabled>
+      <Remarkes></Remarkes>
+    </RobotCommand>
+  </RobotCommands>
+  <RobotOperateObjects>
+    <RobotOperateObject>
+      <Name>Folder</Name>
+      <Format></Format>
+      <Tool>c:\windows\explorer.exe</Tool>
+      <Enabled>1</Enabled>
+      <Description>Open Folder</Description>
+    </RobotOperateObject>
+    <RobotOperateObject>
+      <Name>URL</Name>
+      <Format></Format>
+      <Tool>c:\windows\explorer.exe</Tool>
+      <Enabled>1</Enabled>
+      <Description>Open URL</Description>
+    </RobotOperateObject>
+    <RobotOperateObject>
+      <Name>TXT</Name>
+      <Format>txt|log|sql|xml</Format>
+      <Tool>D:\Program Files (x86)\Sunny\Tools\GreenTools\Notepad++</Tool>
+      <Enabled>1</Enabled>
+      <Description>Edit Text Type File</Description>
+    </RobotOperateObject>
+    <RobotOperateObject>
+      <Name>EXE</Name>
+      <Format>cmd|bat|exe</Format>
+      <Tool>c:\windows\explorer.exe</Tool>
+      <Enabled>1</Enabled>
+      <Description>file that run directly</Description>
+    </RobotOperateObject>
+</RobotOperateObjects>
+</Config>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+    <HistoryDateTime>2015-11-19 18:01:48:286</HistoryDateTime>
+    <Request>
+      <Name>ThreeStrikes_Add</Name>
+      <CategoryName>INT-Subledger</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders>correlationId: 75effd1a-45ea-46a9-bc5d-bc0d6b213838</RequestHeaders>
+      <RequestUrl>https://subledger.cp.microsoft-int.com/AccountSettings</RequestUrl>
+      <RequestParameters>{
+    'UniversalAccountId' : '264a29891d0c41d79ee8c6249d04a70b01',
+    'PartnerGuid' : 'ffbd27a7-117c-4d13-9eb2-1973ce4788c0',
+    'SettingsFlags' : 'DisablePayoutBalanceCreation',
+    'SettingsChangeReason' : 'Continuous Payout Decline'
+}</RequestParameters>
+      <RequestContentType>application/json</RequestContentType>
+      <ClientCertInfo>
+        <StoreName>My</StoreName>
+        <StoreLocation>LocalMachine</StoreLocation>
+        <FindType>FindByThumbprint</FindType>
+        <FindValue>347041dd76ed4ed57cb964bfed47d3bc1994e0b7</FindValue>
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks />
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>x-ms-correlation-id: 9dfc7524-48ce-4576-87f1-8cc44c124bd0
+x-ms-session-id: 28e5e697-18ba-49ee-b78c-748be2e44d33
+Content-Length: 22
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Date: Thu, 19 Nov 2015 10:01:25 GMT
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>"Updated successfully"</ResponseString>
+      <TotalExecutionTime>1500.15</TotalExecutionTime>
+    </Response>
+    <Remarks>AddExistUA</Remarks>
+  </History>
+  <History>
+    <HistoryDateTime>2015-11-24 11:34:58:914</HistoryDateTime>
+    <Request>
+      <Name>ThreeStrikes_Add</Name>
+      <CategoryName>INT-Subledger</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders>correlationId: 75effd1a-45ea-46a9-bc5d-bc0d6b213838</RequestHeaders>
+      <RequestUrl>https://subledger.cp.microsoft-int.com/AccountSettings</RequestUrl>
+      <RequestParameters>{
+    'UniversalAccountId' : '1111',
+    'PartnerGuid' : 'ffbd27a7-117c-4d13-9eb2-1973ce4788c0',
+    'SettingsFlags' : 'DisablePayoutBalanceCreation',
+    'SettingsChangeReason' : 'Continuous Payout Decline'
+}</RequestParameters>
+      <RequestContentType>application/json</RequestContentType>
+      <ClientCertInfo>
+        <StoreName>My</StoreName>
+        <StoreLocation>LocalMachine</StoreLocation>
+        <FindType>FindByThumbprint</FindType>
+        <FindValue>347041dd76ed4ed57cb964bfed47d3bc1994e0b7</FindValue>
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>response:
+{"universalAccountId":"3036528fcaf14b94a1e49ea94368ab2d01","partnerGuid":"ffbd27a7-117c-4d13-9eb2-1973ce4788c0","settingsFlags":"DisablePayoutBalanceCreation","settingsChangeReason":"Continuous Payout Decline"}</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>201:Created</Status>
+      <ResponseHeaders>x-ms-correlation-id: 23b06539-8389-463d-bfd5-1ea61b1c9385
+x-ms-session-id: 1c340d11-4b34-4aa2-8cec-ddb55465276b
+Content-Length: 180
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Date: Tue, 24 Nov 2015 03:34:56 GMT
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>{"universalAccountId":"1111","partnerGuid":"ffbd27a7-117c-4d13-9eb2-1973ce4788c0","settingsFlags":"DisablePayoutBalanceCreation","settingsChangeReason":"Continuous Payout Decline"}</ResponseString>
+      <TotalExecutionTime>1924.1924000000001</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-11-24 12:18:34:306</HistoryDateTime>
+    <Request>
+      <Name>ThreeStrikes_Add</Name>
+      <CategoryName>INT-Subledger</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders>correlationId: 75effd1a-45ea-46a9-bc5d-bc0d6b213838</RequestHeaders>
+      <RequestUrl>https://subledger.cp.microsoft-int.com/AccountSettings</RequestUrl>
+      <RequestParameters>{
+    'UniversalAccountId' : '11111',
+    'PartnerGuid' : 'ffbd27a7-117c-4d13-9eb2-1973ce4788c0',
+    'SettingsFlags' : 'DisablePayoutBalanceCreation',
+    'SettingsChangeReason' : 'Continuous Payout Decline'
+}</RequestParameters>
+      <RequestContentType>application/json</RequestContentType>
+      <ClientCertInfo>
+        <StoreName>My</StoreName>
+        <StoreLocation>LocalMachine</StoreLocation>
+        <FindType>FindByThumbprint</FindType>
+        <FindValue>347041dd76ed4ed57cb964bfed47d3bc1994e0b7</FindValue>
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks>response:
+{"universalAccountId":"3036528fcaf14b94a1e49ea94368ab2d01","partnerGuid":"ffbd27a7-117c-4d13-9eb2-1973ce4788c0","settingsFlags":"DisablePayoutBalanceCreation","settingsChangeReason":"Continuous Payout Decline"}</Remarks>
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>201:Created</Status>
+      <ResponseHeaders>x-ms-correlation-id: f0222c5f-2ae4-403b-8f54-4401979d9a2f
+x-ms-session-id: 902d8086-f179-4856-97e4-6843d7018334
+Content-Length: 181
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Date: Tue, 24 Nov 2015 04:18:30 GMT
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>{"universalAccountId":"11111","partnerGuid":"ffbd27a7-117c-4d13-9eb2-1973ce4788c0","settingsFlags":"DisablePayoutBalanceCreation","settingsChangeReason":"Continuous Payout Decline"}</ResponseString>
+      <TotalExecutionTime>1771.1013</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+  <HistoryDateTime>2015-11-24 12:18:40:005</HistoryDateTime>
+  <Request>
+    <Name>ThreeStrikes_Add</Name>
+    <CategoryName>INT-Subledger</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders>correlationId: 75effd1a-45ea-46a9-bc5d-bc0d6b213838</RequestHeaders>
+    <RequestUrl>https://subledger.cp.microsoft-int.com/AccountSettings</RequestUrl>
+    <RequestParameters>{
+    'UniversalAccountId' : '111111',
+    'PartnerGuid' : 'ffbd27a7-117c-4d13-9eb2-1973ce4788c0',
+    'SettingsFlags' : 'DisablePayoutBalanceCreation',
+    'SettingsChangeReason' : 'Continuous Payout Decline'
+}</RequestParameters>
+    <RequestContentType>application/json</RequestContentType>
+    <ClientCertInfo>
+      <StoreName>My</StoreName>
+      <StoreLocation>LocalMachine</StoreLocation>
+      <FindType>FindByThumbprint</FindType>
+      <FindValue>347041dd76ed4ed57cb964bfed47d3bc1994e0b7</FindValue>
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks>response:
+{"universalAccountId":"3036528fcaf14b94a1e49ea94368ab2d01","partnerGuid":"ffbd27a7-117c-4d13-9eb2-1973ce4788c0","settingsFlags":"DisablePayoutBalanceCreation","settingsChangeReason":"Continuous Payout Decline"}</Remarks>
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>201:Created</Status>
+    <ResponseHeaders>x-ms-correlation-id: 31ea5624-4657-47ea-82cc-d3a66bc8ce76
+x-ms-session-id: 4c8452f2-e52b-4426-8f4d-e51ce98605c3
+Content-Length: 182
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Date: Tue, 24 Nov 2015 04:18:37 GMT
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+    <ResponseString>{"universalAccountId":"111111","partnerGuid":"ffbd27a7-117c-4d13-9eb2-1973ce4788c0","settingsFlags":"DisablePayoutBalanceCreation","settingsChangeReason":"Continuous Payout Decline"}</ResponseString>
+    <TotalExecutionTime>409.02340000000004</TotalExecutionTime>
+  </Response>
+</History>
+</Histories>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebTools>
+  <WebTool>
+	<Name>URL Encode/Decode</Name>
+	<URL>http://tool.chinaz.com/Tools/URLEncode.aspx</URL>
+	<CategoryName>Encryption</CategoryName>
+	<Enabled>true</Enabled>
+  </WebTool>
+  <WebTool>
+	<Name>Base 64 Encrypt/Decrypt</Name>
+	<URL>http://tool.chinaz.com/Tools/Base64.aspx</URL>
+	<CategoryName>Encryption</CategoryName>
+	<Enabled>true</Enabled>
+  </WebTool>
+  <WebTool>
+	<Name>Guid Generator</Name>
+	<URL>https://www.guidgenerator.com/</URL>
+	<CategoryName>Other</CategoryName>
+	<Enabled>true</Enabled>
+  </WebTool>
+  <WebTool>
+	<Name>Json Parser</Name>
+	<URL>http://www.jsoneditoronline.org//</URL>
+	<CategoryName>Other</CategoryName>
+	<Enabled>true</Enabled>
+  </WebTool>
+</WebTools>
+

@@ -1,0 +1,20 @@
+Error(2016-01-24 14:31:29:002)
+[Message]:未将对象引用设置到对象的实例。
+[StackTrace]:   在 Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) 位置 g:\Sunny\Sunny.Lib\ConfigurationHelper.cs:行号 372
+
+Error(2016-01-24 14:51:14:934)
+[Message]:未将对象引用设置到对象的实例。
+[StackTrace]:   在 Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) 位置 g:\Sunny\Sunny.Lib\ConfigurationHelper.cs:行号 372
+
+Error(2016-01-24 14:57:52:560)
+[Message]:未将对象引用设置到对象的实例。
+[StackTrace]:   在 Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) 位置 g:\Sunny\Sunny.Lib\ConfigurationHelper.cs:行号 372
+
+Error(2016-01-24 15:09:19:375)
+[Message]:未将对象引用设置到对象的实例。
+[StackTrace]:   在 Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) 位置 g:\Sunny\Sunny.Lib\ConfigurationHelper.cs:行号 372
+
+Error(2016-01-24 18:49:40:466)
+[Message]:未将对象引用设置到对象的实例。
+[StackTrace]:   在 Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) 位置 g:\Sunny\Sunny.Lib\ConfigurationHelper.cs:行号 372
+

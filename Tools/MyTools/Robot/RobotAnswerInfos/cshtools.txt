@@ -1,0 +1,92 @@
+[robot_answer_section_start_flag]
+invoice url on onebox: https://tools1box.microsoft.com/BizOpsTools/Invoiceadmintool/
+invoice url on int: https://tools.cp.microsoft-int.com/BizOpsTools/Invoiceadmintool/
+invoice url on prod: https://tools.cp.microsoft.com/BizOpsTools/Invoiceadmintool/
+invoice url on sanya: https://tools.cp.partner.microsoftonline.cn/BizOpsTools/Invoiceadmintool/
+managementportal url on onebox: https://tools.microsoft.com/ManagementPortal/
+managementportal url on int: https://tools.cp.microsoft-int.com/ManagementPortal/
+managementportal url on prod: https://tools.cp.microsoft.com/ManagementPortal/
+managementportal url on sanya: https://tools.cp.partner.microsoftonline.cn/ManagementPortal/
+toolsservice url on onebox: https://tools1box.microsoft.com/toolsservice/monitor/test
+active on prod: https://tools.cp.microsoft.com/loadbalancer/active.txt
+[robot_answer_section_end_flag]
+
+[robot_answer_section_start_flag]
+cd "C:\Program Files (x86)\KAF"
+Latch.exe "C:\Program Files (x86)\Testing\BizOpsTools\Microsoft.Commerce.Tools.Test.BizOpsTools.ControllerTest.dll" /select:"FunctionName='BatchTool_FuncTest_HistoryExport_MultipleBatches'"
+SET TestCaseFolder= %ProgramFiles(x86)%\Testing\BizOpsTools (only batch test case need to do)
+Latch.exe "C:\Program Files (x86)\Testing\BizOpsTools\Microsoft.Commerce.Tools.Test.BizOpsTools.WebClientTest.dll"  /select:"FunctionName='InvoiceAdminTool_SearchInvoice_Single'"
+[robot_answer_section_end_flag]
+
+[robot_answer_section_start_flag]
+Tools db machines
+Dev-INT: BLUCP3CSHDEVS01.int.sdint.net
+INT: BLUCP3CMASQL01.int.sdint.net
+Prod C01: CO1CP1TOLBATS01
+Prod DM2: DM2CP1TOLBATS01
+BJB: BJBCP1TOLBATS01
+SHA: SHACP1TOLBATS02
+[robot_answer_section_end_flag]
+
+[robot_answer_section_start_flag]
+Main build path:D:\SourceCode\Tools.Main\Main\drop
+[robot_answer_section_start_flag]
+
+[robot_answer_section_start_flag]
+start bizopstools etw log on onebox:
+C:\APWebSites\App\22.23.2090.0\BizOpsTools\DeployScripts\SetupEventProvider.cmd
+C:\APWebSites\App\22.23.2090.0\BizOpsTools\DeployScripts\StartSvcPerfForTools.cmd
+
+start bizopstools etw log on int:
+SetupToolsEventProviderCommon.cmd
+StartSvcPerfForTools.cmd
+[robot_answer_section_end_flag]
+
+[robot_answer_section_start_flag]
+Sunny path: D:\Program Files (x86)\Sunny
+Machine path: \\cpvmmserver01\cstools\machineconfig.xml
+host path: C:\Windows\System32\drivers\etc\hosts
+Default Records File path: D:\Program Files (x86)\Sunny\Tools\MyTools\Rebot\RobotAnswerInfos\default.txt
+cshtools path: D:\Program Files (x86)\Sunny\Tools\MyTools\Robot\RobotAnswerInfos\cshtools.txt
+work build path: D:\SourceCode\Tools.Work\Work\Drop
+work test path: D:\SourceCode\Tools.Work\Work\private\test\BizOpsTools\Scripts\DailyRun\BAT\DeployBizOpsTest
+escrow offical build path: \\cpdfs\build\TFS\CSH\Drops\Tools.Escrow\Tools.Escrow_20150109.1
+zion password path: \\cmathost\DEPLOYMENT\Password\zion.txt
+biztool accounts password path: \\cpvmmserver01\CSTools\biztool.txt
+[robot_answer_section_end_flag]
+
+[robot_answer_section_start_flag]
+----------------query avg(items/sec) of large batch(items>10000) ----------------------
+select vc_batch_template_name as apiname
+,sum(itemsamount)*1.0/sum(runtime) as 'items/sec'
+,sum(runtime) as all_runtime
+,sum(itemsamount) as all_itemsamount 
+from 
+(
+	select A.bi_batch_id
+	,vc_batch_template_name
+	, DATEDIFF(second,dt_inserted_datetime,dt_end_processing_datetime) as runtime
+	, (select count(1) from batch_item B where B.bi_batch_id=A.bi_batch_id) as itemsamount
+	from BatchDB..batch A
+	where bi_batch_id in 
+	 (select bi_batch_id from batch_item group by bi_batch_id having count(1)>=10000) and dt_end_processing_datetime is not null
+
+) as AA group by vc_batch_template_name
+--------------------------------------
+select vc_batch_name as apiname
+,sum(i_records_count)*1.0/sum(runtime) as 'items/sec'
+,sum(runtime) as all_runtime
+,sum(i_records_count) as all_itemsamount 
+from
+(
+	select i_batch_id
+	,vc_batch_name
+	,i_records_count
+	,DATEDIFF(second,dt_inserted_datetime,dt_updated_datetime) as runtime 
+	,dt_inserted_datetime
+	,dt_updated_datetime
+	from BatchProc..batch
+	where dt_updated_datetime is not null --and i_records_count>10000
+) as AA group by vc_batch_name
+--------------------------------------------------------------------------
+[robot_answer_section_end_flag]

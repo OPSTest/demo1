@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="RefundTax">
+    <Processors>
+      <Processor name="RefundTax" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="RefundTax" internalName="__LineNumber__" type="Int32" />
+      <Field name="RefundTaxRequest" internalName="RefundTaxRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="IssueReceipt">
+    <Processors>
+      <Processor name="IssueReceipt" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="IssueReceipt" internalName="__LineNumber__" type="Int32" />
+      <Field name="IssueReceiptRequest" internalName="IssueReceiptRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ManagePreApprovalList">
+    <Processors>
+      <Processor name="ManagePreApprovalList" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="ManagePreApprovalList" internalName="__LineNumber__" type="Int32" />
+      <Field name="ManagePreApprovalListRequest" internalName="ManagePreApprovalListRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ManagePreApproval">
+    <Processors>
+      <Processor name="ManagePreApproval" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="ManagePreApproval" internalName="__LineNumber__" type="Int32" />
+      <Field name="ManagePreApprovalRequest" internalName="ManagePreApprovalRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AdminCancelScheduledRenewal">
+    <Processors>
+      <Processor name="AdminCancelScheduledRenewal" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="AdminCancelScheduledRenewal" internalName="__LineNumber__" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AdminExtendSubscription">
+    <Processors>
+      <Processor name="AdminExtendSubscription" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="AdminExtendSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Number of Units" internalName="ExtendSubscriptionCount" type="Int32" />
+      <Field name="Extension Unit" internalName="ExtendSubscriptionUnit" type="String" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="StoredValueManagePromotionalSkuLimit">
+    <Processors>
+      <Processor name="StoredValueManagePromotionalSkuLimit" category="MINT"/>
+    </Processors>
+    <Input>
+      <Field name="StoredValueManagePromotionalSkuLimit" internalName="__LineNumber__" type="Int32" />
+      <Field name="SKU" internalName="StoredValueSku" type="String" />
+      <Field name="SKU Currency" internalName="Currency" type="String" />
+      <Field name="SKU Limitation Amount" internalName="Amount" type="String" />
+      <Field name="Calling Partner" internalName="CallingPartnerName" type="String" />
+      <Field name="Operation Type" internalName="StoredValueSkuLimitOperationType" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="StoredValueManagePromotionalProgram">
+    <Processors>
+      <Processor name="StoredValueManagePromotionalProgram"  category="MINT"/>
+    </Processors>
+    <Input>
+      <Field name="StoredValueManagePromotionalProgram"  internalName="__LineNumber__" type="Int32" />
+      <Field name="Program Guid" internalName="PromotionalProgramGuid" type="Guid" />
+      <Field name="Friendly Name" internalName="FriendlyName" type="String" />
+      <Field name="Description" internalName="Description" type="String" />
+      <Field name="SKU" internalName="StoredValueSku" type="String" />
+      <Field name="Partner Guid" internalName="CallingPartner" type="Guid" />
+      <Field name="Effective Start Date" internalName="EffectiveStartDate" type="DateTime" />
+      <Field name="Effective End Date" internalName="EffectiveEndDate" type="DateTime" />
+      <Field name="Operation Type" internalName="PromotionalProgramOperationType" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AdjustMonetaryCommitmentDiscount">
+    <Processors>
+      <Processor name="AdjustMonetaryCommitmentDiscount" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="AdjustMonetaryCommitmentDiscount" internalName="__LineNumber__" type="Int32" />
+      <Field name="AdjustMonetaryCommitmentDiscountRequest" internalName="AdjustMonetaryCommitmentDiscountRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ApplySubscriptionDiscount">
+    <Processors>
+      <Processor name="ApplySubscriptionDiscount" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="ApplySubscriptionDiscount" internalName="__LineNumber__" type="Int32" />
+      <Field name="ApplySubscriptionDiscountRequest" internalName="ApplySubscriptionDiscountRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="RefundPurchase">
+    <Processors>
+      <Processor name="RefundPurchase" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="RefundPurchase" internalName="__LineNumber__" type="Int32" />
+      <Field name="RefundPurchaseRequest" internalName="RefundPurchaseRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CTPCommerceConvertSubscription">
+    <Processors>
+      <Processor name="ConvertSubscription" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="CTPCommerceConvertSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="OnBehalfOfPartnerGuid" internalName="OnBehalfOfPartnerGuid" type="String" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Compute Only" internalName="ComputeOnly" type="Boolean" />
+      <Field name="Subs Name" internalName="SubscriptionName" type="String" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Deal GUID" internalName="OfferingGUID" type="Guid" />
+      <Field name="PI ID" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Policy ID" internalName="PolicyGUID" type="String" optional="true" />
+      <Field name="Policy Ver" internalName="PolicyVersion" type="String" optional="true" defaultValue="0" />
+      <Field name="Signature Date" internalName="SignatureDateTime" type="String" optional="true" />
+      <Field name="Instance Count" internalName="InstanceCount" type="Int32" optional="true" />
+      <Field name="Billing Mode" internalName="BillingMode" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CTPCommerceSettlePhysicalGoods">
+    <Processors>
+      <Processor name="SettlePhysicalGoods" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="CTPCommerceSettlePhysicalGoods" internalName="__LineNumber__" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Purchase Id" internalName="PurchaseId" type="String" />
+      <Field name="ExternalProductItemIdSet" internalName="ExternalProductItemIdSet" type="String" optional="true" />
+      <Field name="PackageShipmentInfoXML" internalName="PackageShipmentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="MintTestConnection">
+    <Processors>
+      <Processor name="MintTestConnection" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="MintTestConnection" internalName="_LineNumber_" type="Int32" />
+      <Field name="TestConnectionEchoIn" internalName="TestConnectionEchoIn" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+      <Field name="TestConnectionEchoOut" internalName="TestConnectionEchoOut" type="String" />
+    </Output>
+  </Template>
+  <Template name="AdminAddRoleAssignment">
+    <Processors>
+      <Processor name="AdminAddRoleAssignment" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="AdminAddRoleAssignment" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Role Info XML" internalName="RoleAssignmentXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="EscheatSettlementAmount">
+    <Processors>
+      <Processor name="EscheatSettlementAmount" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="EscheatSettlementAmount" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="String" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="PI Ref ID" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Settlement Amount Id" internalName="SettlementAmountId" type="String" />
+      <Field name="Currency" internalName="Currency" type="String" />
+      <Field name="Amount" internalName="Amount" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="SetCreditCheckThreshold">
+    <Processors>
+      <Processor name="SetCreditCheckThreshold" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="SetCreditCheckThreshold" internalName="__LineNumber__" type="Int32" />
+      <Field name="SetCreditCheckThresholdRequest" internalName="SetCreditCheckThresholdRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="MintUpdateAccount">
+    <Processors>
+      <Processor name="MintUpdateAccount" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="MintUpdateAccount" internalName="__LineNumber__" type="Int32" />
+      <Field name="MintUpdateAccountRequest" internalName="MintUpdateAccountRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="MintUpdatePaymentInstrument">
+    <Processors>
+      <Processor name="MintUpdatePaymentInstrument" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="MintUpdatePaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="MintUpdatePaymentInstrumentRequest" internalName="MintUpdatePaymentInstrumentRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="MintManageAgents">
+    <Processors>
+      <Processor name="MintManageAgents" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="MintManageAgents" internalName="__LineNumber__" type="Int32" />
+      <Field name="Agent Id" internalName="AgentId" type="Int32" />
+      <Field name="Agent Name" internalName="AgentName" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+</Templates>

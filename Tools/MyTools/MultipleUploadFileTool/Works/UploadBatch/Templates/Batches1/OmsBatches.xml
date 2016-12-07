@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+    <Template name="UpdatePaymentInstrument">
+        <Processors>
+            <Processor name="UpdatePaymentInstrument" category="OMS" />
+        </Processors>
+        <Input>
+            <Field name="UpdatePaymentInstrument" internalName="_LineNumber_" type="Int32" />
+            <Field name="TrackingId" internalName="TrackingGUID" type="Guid"/>
+            <Field name="TenantId" internalName="NullableTenantId" type="Guid"  optional="true"/>
+            <Field name="OrderId" internalName="OrderId" type="Guid" />
+            <Field name="Version" internalName="OmsVersion" type="Int32" />
+            <Field name="PaymentInstrumentId" internalName="NullablePaymentInstrumentId" type="Guid" optional="true" />
+            <Field name="PurchaseOrderNumber" internalName="PurchaseOrderNumber" type="String" />
+            <Field name="BillingAddress" internalName="BillingAddress" type="Json" />
+            <Field name="VatId" internalName="VatId" type="String" />
+        </Input>
+        <Output>
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+        </Output>
+    </Template>
+
+    <Template name="AdjustSubscriptionEndDate">
+        <Processors>
+            <Processor name="GetSubscription" category="OMS" />
+            <Processor name="AdjustSubscriptionEndDate" category="OMS" />
+        </Processors>
+        <Input>
+            <Field name="AdjustSubscriptionEndDate" internalName="_LineNumber_" type="Int32" />
+            <Field name="TrackingId" internalName="TrackingGUID" type="Guid"/>
+            <Field name="TenantId" internalName="NullableTenantId" type="Guid"  optional="true"/>
+            <Field name="SubscriptionId" internalName="SubscriptionGuid" type="Guid" />
+            <Field name="NewEndDate" internalName="NewEndDate" type="DateTime" />
+        </Input>
+        <Output>
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+        </Output>
+    </Template>
+
+    <Template name="DeactivateSubscription">
+        <Processors>
+            <Processor name="GetSubscription" category="OMS" />
+            <Processor name="DeactivateSubscription" category="OMS" />
+        </Processors>
+        <Input>
+            <Field name="DeactivateSubscription" internalName="_LineNumber_" type="Int32" />
+            <Field name="TrackingId" internalName="TrackingGUID" type="Guid"/>
+            <Field name="TenantId" internalName="NullableTenantId" type="Guid"  optional="true"/>
+            <Field name="SubscriptionId" internalName="SubscriptionGuid" type="Guid" />
+            <Field name="NewSubscriptionState" internalName="SubscriptionState" type="String" format="Other|Active|InGracePeriod|Disabled|Deprovisioned|Abandoned"/>
+            <Field name="DeactivationReason" internalName="DeactivationReason" type="String"  format="Other|Lifecycle|UserRequest|Nonpayment|Fraud|Eviction|Transition|Unidentified|Immediate|LifecycleLockout"/>
+            <Field name="GracePeriod" internalName="GracePeriod" type="String"  optional="true"  format="^(\d{1,2}:)?\d{1,2}:\d{1,2}:\d{1,2}(:\d{1,2})?$"/>
+            <Field name="StateChangeReason" internalName="SubscriptionStateChangeReason" type="String" format="Other|Lifecycle|UserRequest|Payment|Fraud|Eviction|Transition|Unidentified|Immediate|LifecycleLockout"/>
+        </Input>
+        <Output>
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+        </Output>
+    </Template>
+
+    <Template name="UpdateTaxId">
+        <Processors>
+            <Processor name="UpdateTaxId" category="OMS" />
+        </Processors>
+        <Input>
+            <Field name="UpdateTaxId" internalName="_LineNumber_" type="Int32" />
+            <Field name="TrackingId" internalName="TrackingGUID" type="Guid"/>
+            <Field name="TenantId" internalName="NullableTenantId" type="Guid"  optional="true"/>
+            <Field name="OrderId" internalName="OrderId" type="Guid" />
+            <Field name="TaxIdType" internalName="TaxIdType" type="String"  format="VatId|RegistrationNumber|CNPJId"/>
+            <Field name="TaxId" internalName="TaxId" type="String"/>
+        </Input>
+        <Output>
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+        </Output>
+    </Template>
+
+    <Template name="SaveTenantProfile">
+        <Processors>
+            <Processor name="SaveTenantProfile" category="OMS" />
+        </Processors>
+        <Input>
+            <Field name="SaveTenantProfile" internalName="_LineNumber_" type="Int32" />
+            <Field name="TrackingId" internalName="TrackingGUID" type="Guid"/>
+            <Field name="TenantId" internalName="NullableTenantId" type="Guid"  optional="true"/>
+            <Field name="TenantProfile" internalName="TenantProfile" type="Json" />
+        </Input>
+        <Output>
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+        </Output>
+    </Template>
+
+    <Template name="ReactivateSubscription">
+        <Processors>
+            <Processor name="GetSubscription" category="OMS" />
+            <Processor name="ReactivateSubscription" category="OMS" />
+        </Processors>
+        <Input>
+            <Field name="ReactivateSubscription" internalName="_LineNumber_" type="Int32" />
+            <Field name="TrackingId" internalName="TrackingGUID" type="Guid"/>
+            <Field name="TenantId" internalName="NullableTenantId" type="Guid"  optional="true"/>
+            <Field name="SubscriptionId" internalName="SubscriptionGuid" type="Guid" />
+            <Field name="StateChangeReason" internalName="SubscriptionStateChangeReason" type="String" />
+        </Input>
+        <Output>
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+        </Output>
+    </Template>
+
+    <Template name="UpdateSubscriptionIncludedQuantity">
+        <Processors>
+            <Processor name="GetSubscription" category="OMS" />
+            <Processor name="UpdateSubscriptionIncludedQuantity" category="OMS" />
+        </Processors>
+        <Input>
+            <Field name="UpdateSubscriptionIncludedQuantity" internalName="_LineNumber_" type="Int32" />
+            <Field name="TrackingId" internalName="TrackingGUID" type="Guid"/>
+            <Field name="TenantId" internalName="NullableTenantId" type="Guid"  optional="true"/>
+            <Field name="SubscriptionId" internalName="SubscriptionGuid" type="Guid" />
+            <Field name="NewIncludedQuantity" internalName="NewIncludedQuantity" type="Int32" />
+        </Input>
+        <Output>
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+        </Output>
+    </Template>
+
+    <Template name="GenerateSubscriptionLockoutCode">
+        <Processors>
+            <Processor name="GenerateSubscriptionLockoutCode" category="OMS" />
+        </Processors>
+        <Input>
+            <Field name="GenerateSubscriptionLockoutCode" internalName="_LineNumber_" type="Int32" />
+            <Field name="TenantId" internalName="NullableTenantId" type="Guid"  />
+            <Field name="SubscriptionId" internalName="SubscriptionGuid" type="Guid" />
+        </Input>
+        <Output>
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+            <Field name="Payload" internalName="ResultPayload" type="String" optional="true" />
+        </Output>
+    </Template>
+
+    <Template name="CancelSubscriptionLockoutCode">
+        <Processors>
+            <Processor name="ClearSubscriptionLockoutCode" category="OMS" />
+        </Processors>
+        <Input>
+            <Field name="CancelSubscriptionLockoutCode" internalName="_LineNumber_" type="Int32" />
+            <Field name="TenantId" internalName="NullableTenantId" type="Guid"  />
+            <Field name="SubscriptionId" internalName="SubscriptionGuid" type="Guid" />
+        </Input>
+        <Output>
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+            <Field name="Payload" internalName="ResultPayload" type="String" optional="true" />
+        </Output>
+    </Template>
+</Templates>

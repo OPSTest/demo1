@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="CreditPaymentInstrumentEx3">
+    <Processors>
+      <Processor name="CreditPaymentInstrumentEx3" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="CreditPaymentInstrumentEx3" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="PI Ref" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Sku Reference XML" internalName="SkuReferenceXML" type="Xml" optional="true" />
+      <Field name="Property XML" internalName="PropertyXML" type="Xml" optional="true" />
+      <Field name="Reason" internalName="FinancialReportingCode" type="Int32" />
+      <Field name="Amount" internalName="Amount" type="Decimal" format="\-\d{1,3}\.\d{2}" />
+      <Field name="Currency" internalName="Currency" type="String" optional="true" format="AUD|BRL|CAD|EUR|GBP|HKD|JPY|MXN|NZD|SEK|SGD|TWD|USD|ALL|DZD|ARS|BSD|BHD|BDT|AMD|BBD|BMD|BTN|BOB|BWP|BZD|SBD|BND|BIF|KHR|CVE|KYD|LKR|CLP|CNY|COP|KMF|CRC|HRK|CZK|DKK|DOP|ETB|ERN|EEK|FJD|DJF|GMD|GTQ|GNF|GYD|HTG|HNL|HUF|ISK|INR|IDR|IQD|ILS|JMD|KZT|JOD|KES|KRW|KWD|KGS|LAK|LBP|LSL|LVL|LTL|MOP|MWK|MYR|MVR|MRO|MUR|MNT|MDL|MAD|OMR|NAD|NPR|ANG|VUV|NIO|NGN|NOK|PKR|PGK|PYG|PEN|PHP|QAR|RUB|RWF|SAR|SCR|SLL|VND" />
+      <Field name="Immediate Settle" internalName="ImmediatelySettle" type="Boolean" optional="true" defaultValue="false" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+      <Field name="StoredValueLot ExpirationDate" internalName="StoredValueLotExpirationDate" type="String" optional="true" />
+      <Field name="StoredValueLot Type" internalName="StoredValueLotType" type="String" optional="true" />
+      <Field name="StoredValue Sku" internalName="StoredValueSku" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+</Templates>

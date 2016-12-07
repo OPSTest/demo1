@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+    <HistoryDateTime>2016-01-25 16:14:20:264</HistoryDateTime>
+    <Request>
+      <Name>SendEmail</Name>
+      <CategoryName>Platform_EmailService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://ws.messagegateway.ctripcorp.com/emailservice/sendemail</RequestUrl>
+      <RequestParameters>{"OrderID":1639605477,"UID":"D305560059","Eid":"s42289","SourceID":1,"SendCode":"23010022","AppID":110220,"Sender":"h_rsv@ctrip.com","Recipient":["qxsun@ctrip.com"],"SenderName":"Ctrip Hotel Reservation Dept.","RecipientName":"qxsun","Subject":"Hotel reservation successful (Best Western Linton Lodge)","BodyTemplateID":23010022,"BodyContent":"&lt;entry&gt;&lt;OrderID&gt;1639605477&lt;/OrderID&gt;&lt;IsCorpCorporation&gt;F&lt;/IsCorpCorporation&gt;&lt;HotelName&gt;Best Western Linton Lodge(贝斯特韦斯特林顿酒店)&lt;/HotelName&gt;&lt;ContactName&gt;Sir/Madam&lt;/ContactName&gt;&lt;UID&gt;D30556****&lt;/UID&gt;&lt;OrderDate&gt;2016-01-02&lt;/OrderDate&gt;&lt;HotelNameEn&gt;Best Western Linton Lodge&lt;/HotelNameEn&gt;&lt;ConfirmNO&gt;381511824&lt;/ConfirmNO&gt;&lt;HotelAdress&gt;11-13 Linton Road,Oxford                                            &lt;/HotelAdress&gt;&lt;HotelTel&gt;+441865553461&lt;/HotelTel&gt;&lt;HotelFax&gt;&lt;/HotelFax&gt;&lt;ClientName&gt;zhao/yincui,li/yichen&lt;/ClientName&gt;&lt;Arrival&gt;2016-04-01 (begins at 03:00 p.m)&lt;/Arrival&gt;&lt;Departure&gt;2016-04-05 (before 11:00 a.m)&lt;/Departure&gt;&lt;RoomName&gt;Executive Double Room&lt;/RoomName&gt;&lt;Quantity&gt;1Room(s)&lt;/Quantity&gt;&lt;MaxPerson&gt;Maximum 2 guest(s)&lt;/MaxPerson&gt;&lt;TotalPrice&gt;GBP 495.00&lt;/TotalPrice&gt;&lt;RoomPrice&gt;GBP 412.50&lt;/RoomPrice&gt;&lt;VATTax&gt;GBP 82.5&lt;/VATTax&gt;&lt;CityTax&gt;GBP 0.00&lt;/CityTax&gt;&lt;ServiceCharge&gt;GBP 0.00&lt;/ServiceCharge&gt;&lt;Breakfast&gt;exclude breakfast&lt;/Breakfast&gt;&lt;PaymentType&gt;前台现付 (pay upon check out)&lt;/PaymentType&gt;&lt;RoomCondition&gt;&lt;/RoomCondition&gt;&lt;SpecialRequest&gt;&lt;/SpecialRequest&gt;&lt;CancelPolicy&gt;如果在入住日16：00 时前
+ 	取消预订，住宿方将不收取费用。
+如果未如期入住或超出时限，取消预订住宿方将收取第一晚房费的100%。
+&lt;/CancelPolicy&gt;&lt;HotelPolicy&gt;&amp;amp;lt;strong&amp;amp;gt;Hotel Policies&amp;amp;lt;/strong&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;允许客人携带儿童入住。 所有额外入住的12岁以下的儿童，使用现有床铺不收费。
+所有额外入住的2岁以下的儿童，加婴儿床不收费。
+所有额外入住的年龄较大的儿童或者成人，加床的收费是每人每晚 GBP 10 。
+最多容纳：每间客房1张加床/婴儿床。
+&amp;amp;lt;/div&amp;amp;gt; &amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;住宿方于各处提供WiFi（免费）。 &amp;amp;lt;/div&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;You have now confirmed and guaranteed your booking by credit card.&amp;amp;lt;br/&amp;amp;gt;All payments are to be made at the hotel during your stay,unless otherwise stated in the hotel policies or in the room conditions.&amp;amp;lt;br/&amp;amp;gt; Please note that your credit card may be pre-authorized prior to your arrival.&amp;amp;lt;br/&amp;amp;gt;	&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/div&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;酒店恕不接受单一性别团体的预订。
+
+请注意，酒店恕不允许客人举办单一性别聚会以及其他聚会。客人必须年满21岁，或由监护人陪同。
+
+客人可以在入住期间免费使用停车场，但入住前和退房后则需额外付费。
+
+请注意，酒店的餐厅于2015年12月17日至19日期间的晚间关闭。&amp;amp;lt;/div&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;无需预订：住宿场所可提供私人停车设施（免费）。  &amp;amp;lt;/div&amp;amp;gt;&lt;/HotelPolicy&gt;&lt;FriendTip&gt;&amp;amp;lt;strong&amp;amp;gt;Ctrip Points&amp;amp;lt;/strong&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;After your order has been completed, 4740 Ctrip points will be added to your account. For details on how Ctrip points work, click &amp;amp;lt;a href=&amp;amp;apos;http://pages.english.ctrip.com/webhome/purehtml/en/faq/points.html#11&amp;amp;apos;&amp;amp;gt;here&amp;amp;lt;/a&amp;amp;gt;. &amp;amp;lt;/div&amp;amp;gt;&lt;/FriendTip&gt;&lt;EmailDate&gt;2016-01-25&lt;/EmailDate&gt;&lt;PostAmount&gt;&lt;/PostAmount&gt;&lt;LocalLanguageAddress&gt;&lt;/LocalLanguageAddress&gt;&lt;RevManagerEmail&gt;&lt;/RevManagerEmail&gt;&lt;/entry&gt;","IsBodyHtml":true,"Charset":"GB2312","ExpiredTime":"2016-02-26 13:13:51"}</RequestParameters>
+      <RequestContentType>application/json</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks />
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>SOA20-Response-Status: Success
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: CTrip/SOA2.0 Win32NT/.NET,ASP.NET
+Date: Mon, 25 Jan 2016 08:13:37 GMT
+Content-Length: 183
+
+</ResponseHeaders>
+      <ResponseString>{"ResponseStatus":{"Timestamp":"\/Date(1453709617700 0800)\/","Ack":"Success","Errors":[],"Extension":[]},"ResultCode":1,"ResultMsg":"请求处理成功.","EmailIDList":["113060923"]}</ResponseString>
+      <TotalExecutionTime>46</TotalExecutionTime>
+    </Response>
+    <Remarks>prod_200_1639605477_23010022</Remarks>
+  </History>
+  <History>
+  <HistoryDateTime>2016-01-25 16:16:33:943</HistoryDateTime>
+  <Request>
+    <Name>SendEmail</Name>
+    <CategoryName>Platform_EmailService</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders />
+    <RequestUrl>http://ws.messagegateway.fat19.qa.nt.ctripcorp.com/emailservice/sendemail</RequestUrl>
+    <RequestParameters>{"OrderID":1639605477,"UID":"D305560059","Eid":"s42289","SourceID":1,"SendCode":"23010022","AppID":110220,"Sender":"h_rsv@ctrip.com","Recipient":["qxsun@ctrip.com"],"SenderName":"Ctrip Hotel Reservation Dept.","RecipientName":"qxsun","Subject":"Hotel reservation successful (Best Western Linton Lodge)","BodyTemplateID":23010022,"BodyContent":"&lt;entry&gt;&lt;OrderID&gt;1639605477&lt;/OrderID&gt;&lt;IsCorpCorporation&gt;F&lt;/IsCorpCorporation&gt;&lt;HotelName&gt;Best Western Linton Lodge(贝斯特韦斯特林顿酒店)&lt;/HotelName&gt;&lt;ContactName&gt;Sir/Madam&lt;/ContactName&gt;&lt;UID&gt;D30556****&lt;/UID&gt;&lt;OrderDate&gt;2016-01-02&lt;/OrderDate&gt;&lt;HotelNameEn&gt;Best Western Linton Lodge&lt;/HotelNameEn&gt;&lt;ConfirmNO&gt;381511824&lt;/ConfirmNO&gt;&lt;HotelAdress&gt;11-13 Linton Road,Oxford                                            &lt;/HotelAdress&gt;&lt;HotelTel&gt;+441865553461&lt;/HotelTel&gt;&lt;HotelFax&gt;&lt;/HotelFax&gt;&lt;ClientName&gt;zhao/yincui,li/yichen&lt;/ClientName&gt;&lt;Arrival&gt;2016-04-01 (begins at 03:00 p.m)&lt;/Arrival&gt;&lt;Departure&gt;2016-04-05 (before 11:00 a.m)&lt;/Departure&gt;&lt;RoomName&gt;Executive Double Room&lt;/RoomName&gt;&lt;Quantity&gt;1Room(s)&lt;/Quantity&gt;&lt;MaxPerson&gt;Maximum 2 guest(s)&lt;/MaxPerson&gt;&lt;TotalPrice&gt;GBP 495.00&lt;/TotalPrice&gt;&lt;RoomPrice&gt;GBP 412.50&lt;/RoomPrice&gt;&lt;VATTax&gt;GBP 82.5&lt;/VATTax&gt;&lt;CityTax&gt;GBP 0.00&lt;/CityTax&gt;&lt;ServiceCharge&gt;GBP 0.00&lt;/ServiceCharge&gt;&lt;Breakfast&gt;exclude breakfast&lt;/Breakfast&gt;&lt;PaymentType&gt;前台现付 (pay upon check out)&lt;/PaymentType&gt;&lt;RoomCondition&gt;&lt;/RoomCondition&gt;&lt;SpecialRequest&gt;&lt;/SpecialRequest&gt;&lt;CancelPolicy&gt;如果在入住日16：00 时前
+ 	取消预订，住宿方将不收取费用。
+如果未如期入住或超出时限，取消预订住宿方将收取第一晚房费的100%。
+&lt;/CancelPolicy&gt;&lt;HotelPolicy&gt;&amp;amp;lt;strong&amp;amp;gt;Hotel Policies&amp;amp;lt;/strong&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;允许客人携带儿童入住。 所有额外入住的12岁以下的儿童，使用现有床铺不收费。
+所有额外入住的2岁以下的儿童，加婴儿床不收费。
+所有额外入住的年龄较大的儿童或者成人，加床的收费是每人每晚 GBP 10 。
+最多容纳：每间客房1张加床/婴儿床。
+&amp;amp;lt;/div&amp;amp;gt; &amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;住宿方于各处提供WiFi（免费）。 &amp;amp;lt;/div&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;You have now confirmed and guaranteed your booking by credit card.&amp;amp;lt;br/&amp;amp;gt;All payments are to be made at the hotel during your stay,unless otherwise stated in the hotel policies or in the room conditions.&amp;amp;lt;br/&amp;amp;gt; Please note that your credit card may be pre-authorized prior to your arrival.&amp;amp;lt;br/&amp;amp;gt;	&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/div&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;酒店恕不接受单一性别团体的预订。
+
+请注意，酒店恕不允许客人举办单一性别聚会以及其他聚会。客人必须年满21岁，或由监护人陪同。
+
+客人可以在入住期间免费使用停车场，但入住前和退房后则需额外付费。
+
+请注意，酒店的餐厅于2015年12月17日至19日期间的晚间关闭。&amp;amp;lt;/div&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;无需预订：住宿场所可提供私人停车设施（免费）。  &amp;amp;lt;/div&amp;amp;gt;&lt;/HotelPolicy&gt;&lt;FriendTip&gt;&amp;amp;lt;strong&amp;amp;gt;Ctrip Points&amp;amp;lt;/strong&amp;amp;gt;&amp;amp;lt;div style=&amp;amp;apos;padding:0 0 0px 5px;clear:both;text-align: left;font-size:13px;margin:10px 0 10px 0&amp;amp;apos;&amp;amp;gt;After your order has been completed, 4740 Ctrip points will be added to your account. For details on how Ctrip points work, click &amp;amp;lt;a href=&amp;amp;apos;http://pages.english.ctrip.com/webhome/purehtml/en/faq/points.html#11&amp;amp;apos;&amp;amp;gt;here&amp;amp;lt;/a&amp;amp;gt;. &amp;amp;lt;/div&amp;amp;gt;&lt;/FriendTip&gt;&lt;EmailDate&gt;2016-01-25&lt;/EmailDate&gt;&lt;PostAmount&gt;&lt;/PostAmount&gt;&lt;LocalLanguageAddress&gt;&lt;/LocalLanguageAddress&gt;&lt;RevManagerEmail&gt;&lt;/RevManagerEmail&gt;&lt;/entry&gt;","IsBodyHtml":true,"Charset":"GB2312","ExpiredTime":"2016-02-26 13:13:51"}</RequestParameters>
+    <RequestContentType>application/json</RequestContentType>
+    <ClientCertInfo>
+      <StoreName />
+      <StoreLocation />
+      <FindType />
+      <FindValue />
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks />
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>200:OK</Status>
+    <ResponseHeaders>SOA20-Response-Status: Success
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: CTrip/SOA2.0 Win32NT/.NET,ASP.NET
+Date: Mon, 25 Jan 2016 08:15:30 GMT
+Content-Length: 182
+
+</ResponseHeaders>
+    <ResponseString>{"ResponseStatus":{"Timestamp":"\/Date(1453709731503 0800)\/","Ack":"Success","Errors":[],"Extension":[]},"ResultCode":1,"ResultMsg":"请求处理成功.","EmailIDList":["25890011"]}</ResponseString>
+    <TotalExecutionTime>579</TotalExecutionTime>
+  </Response>
+  <Remarks>fws_200_1639605477_23010022</Remarks>
+</History>
+</Histories>

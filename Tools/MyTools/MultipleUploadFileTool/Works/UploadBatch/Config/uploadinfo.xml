@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UploadBatchFileInfo>
+  <SelectedUploadFileName>UpdateSubscriptionInfo_5</SelectedUploadFileName>
+  <APIName>UpdateSubscriptionInfo</APIName>
+  <RequestUrl>https://tools1box.microsoft.com/BizOpsTools/BatchTool/</RequestUrl>
+  <AllFileInfo>
+    <BatchFileInfo Name="UpdateSubscriptionInfo_5">
+      <UploadFileName>D:\Program Files (x86)\Sunny\Tools\MyTools\GenerateBatchUploadFiles\GenFiles\UpdateSubscriptionInfo_5.txt</UploadFileName>
+      <UploadRowAmount>5</UploadRowAmount>
+    </BatchFileInfo>
+    <BatchFileInfo Name="UpdateSubscriptionInfo_10">
+      <UploadFileName>D:\Program Files (x86)\Sunny\Tools\MyTools\GenerateBatchUploadFiles\GenFiles\UpdateSubscriptionInfo_10.txt</UploadFileName>
+      <UploadRowAmount>10</UploadRowAmount>
+    </BatchFileInfo>
+    <BatchFileInfo Name="UpdateSubscriptionInfo_100">
+      <UploadFileName>D:\Program Files (x86)\Sunny\Tools\MyTools\GenerateBatchUploadFiles\GenFiles\UpdateSubscriptionInfo_100.txt</UploadFileName>
+      <UploadRowAmount>100</UploadRowAmount>
+    </BatchFileInfo>
+    <BatchFileInfo Name="UpdateSubscriptionInfo_1000">
+      <UploadFileName>D:\Program Files (x86)\Sunny\Tools\MyTools\GenerateBatchUploadFiles\GenFiles\UpdateSubscriptionInfo_1000.txt</UploadFileName>
+      <UploadRowAmount>1000</UploadRowAmount>
+    </BatchFileInfo>
+    <BatchFileInfo Name="UpdateSubscriptionInfo_10000">
+      <UploadFileName>D:\Program Files (x86)\Sunny\Tools\MyTools\GenerateBatchUploadFiles\GenFiles\UpdateSubscriptionInfo_10000.txt</UploadFileName>
+      <UploadRowAmount>10000</UploadRowAmount>
+    </BatchFileInfo>
+    <BatchFileInfo Name="UpdateSubscriptionInfo_100000">
+      <UploadFileName>D:\Program Files (x86)\Sunny\Tools\MyTools\GenerateBatchUploadFiles\GenFiles\UpdateSubscriptionInfo_100000.txt</UploadFileName>
+      <UploadRowAmount>100000</UploadRowAmount>
+    </BatchFileInfo>
+    <BatchFileInfo Name="UpdateSubscriptionInfo_500000">
+      <UploadFileName>D:\Program Files (x86)\Sunny\Tools\MyTools\GenerateBatchUploadFiles\GenFiles\UpdateSubscriptionInfo_500000.txt</UploadFileName>
+      <UploadRowAmount>500000</UploadRowAmount>
+    </BatchFileInfo>
+  </AllFileInfo>
+</UploadBatchFileInfo>

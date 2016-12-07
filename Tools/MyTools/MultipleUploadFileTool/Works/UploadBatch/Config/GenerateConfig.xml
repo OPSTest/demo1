@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GenerateConfig>
+  <SavePath></SavePath>
+  <MinRowCount>500000</MinRowCount>
+  <MaxRowCount>500000</MaxRowCount>
+</GenerateConfig>

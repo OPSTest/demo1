@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+    <HistoryDateTime>2016-01-12 14:02:43:062</HistoryDateTime>
+    <Request>
+      <Name>SendSMSToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendSMSToCustomerRequest" Environment="fws"/&gt;
+&lt;SendSMSToCustomerRequest&gt;
+&lt;OrderID&gt;300010519&lt;/OrderID&gt;
+&lt;SendType&gt;1&lt;/SendType&gt;
+&lt;Mobile&gt;15221653359&lt;/Mobile&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;IsOnlySendMicro&gt;F&lt;/IsOnlySendMicro&gt;
+&lt;IsSendAppAndInternalMessage&gt;T&lt;/IsSendAppAndInternalMessage&gt;
+&lt;IsOnlySendApp&gt;F&lt;/IsOnlySendApp&gt;
+&lt;/SendSMSToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks />
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 996
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 12 Jan 2016 06:02:43 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" Timestamp="2016-01-12 14:02:42:88994" RequestID="cba420b8-0d59-46bc-b859-29eeb71aacb6" ResultCode="Fail" ResultNo="110254000001" ResultMsg="订单：300010519发送短信失败" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendSMSToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;0&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单：300010519发送短信失败&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendSMSToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>9708.970800000001</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2016-01-12 14:10:00:722</HistoryDateTime>
+    <Request>
+      <Name>SendSMSToCustomer</Name>
+      <CategoryName>Local_Order_ProcessService</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+      <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendSMSToCustomerRequest" Environment="fws"/&gt;
+&lt;SendSMSToCustomerRequest&gt;
+&lt;OrderID&gt;300010519&lt;/OrderID&gt;
+&lt;SendType&gt;1&lt;/SendType&gt;
+&lt;Mobile&gt;15221653359&lt;/Mobile&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;IsOnlySendMicro&gt;F&lt;/IsOnlySendMicro&gt;
+&lt;IsSendAppAndInternalMessage&gt;T&lt;/IsSendAppAndInternalMessage&gt;
+&lt;IsOnlySendApp&gt;F&lt;/IsOnlySendApp&gt;
+&lt;/SendSMSToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+      <RequestContentType>text/xml</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks />
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>Content-Length: 1084
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 12 Jan 2016 06:10:00 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" Timestamp="2016-01-12 14:10:00:64372" RequestID="844f3e67-c59b-4f16-b614-de3790cb1bdb" ResultCode="Fail" ResultNo="110254000001" ResultMsg="订单：300010519发送短信失败, 多语言不再支持任何种类的短信" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendSMSToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;0&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;订单：300010519发送短信失败, 多语言不再支持任何种类的短信&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendSMSToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+      <TotalExecutionTime>20628.0626</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+  <HistoryDateTime>2016-01-12 14:34:12:092</HistoryDateTime>
+  <Request>
+    <Name>SendSMSToCustomer</Name>
+    <CategoryName>Local_Order_ProcessService</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders />
+    <RequestUrl>http://localhost/Hotel.Order.ProcessServiceImplementation/ProcessService.asmx</RequestUrl>
+    <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header Culture="cn" Version="1.0" UserID="110254" RequestType="Hotel.Order.ProcessService.SendSMSToCustomerRequest" Environment="fws"/&gt;
+&lt;SendSMSToCustomerRequest&gt;
+&lt;OrderID&gt;300010519&lt;/OrderID&gt;
+&lt;SendType&gt;1&lt;/SendType&gt;
+&lt;Mobile&gt;15221653359&lt;/Mobile&gt;
+&lt;Language&gt;GB&lt;/Language&gt;
+&lt;IsOnlySendMicro&gt;F&lt;/IsOnlySendMicro&gt;
+&lt;IsSendAppAndInternalMessage&gt;T&lt;/IsSendAppAndInternalMessage&gt;
+&lt;IsOnlySendApp&gt;F&lt;/IsOnlySendApp&gt;
+&lt;/SendSMSToCustomerRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+    <RequestContentType>text/xml</RequestContentType>
+    <ClientCertInfo>
+      <StoreName />
+      <StoreLocation />
+      <FindType />
+      <FindValue />
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks />
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>200:OK</Status>
+    <ResponseHeaders>Content-Length: 882
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 12 Jan 2016 06:34:12 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+    <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.32.105.123" Culture="cn" ShouldRecordPerformanceTime="false" Version="1.0" UserID="110254" RequestID="029cb4d5-2500-4e41-a192-e5b9e421cb02" ResultCode="Success" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" /&amp;gt;
+  &amp;lt;SendSMSToCustomerResponse&amp;gt;
+    &amp;lt;ReturnCode&amp;gt;1&amp;lt;/ReturnCode&amp;gt;
+    &amp;lt;Message&amp;gt;发送短信（微信）成功&amp;lt;/Message&amp;gt;
+  &amp;lt;/SendSMSToCustomerResponse&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+    <TotalExecutionTime>21501.1499</TotalExecutionTime>
+  </Response>
+</History>
+</Histories>

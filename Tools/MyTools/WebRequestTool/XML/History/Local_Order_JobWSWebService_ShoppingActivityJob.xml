@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+  <HistoryDateTime>2015-12-17 13:10:48:098</HistoryDateTime>
+  <Request>
+    <Name>ShoppingActivityJob</Name>
+    <CategoryName>Local_Order_JobWSWebService</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders />
+    <RequestUrl>http://localhost/Hotel.Order.JobWSWebService/service1.asmx</RequestUrl>
+    <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;jme&gt;
+        &lt;JobClassFullName&gt;Hotel.Order.JobWSWebService.ShoppingActivityJob,Hotel.Order.JobWSWebService&lt;/JobClassFullName&gt;
+        &lt;Action&gt;RUN&lt;/Action&gt;
+        &lt;Param&gt;&lt;/Param&gt;
+        &lt;JobStatus&gt;Running&lt;/JobStatus&gt;
+        &lt;JobResult&gt;Success&lt;/JobResult&gt;
+        &lt;LastEndTime&gt;2015-12-06&lt;/LastEndTime&gt;
+        &lt;JobInfo&gt;0&lt;/JobInfo&gt;
+        &lt;NeedParallel&gt;false&lt;/NeedParallel&gt;
+      &lt;/jme&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+    <RequestContentType>text/xml</RequestContentType>
+    <ClientCertInfo>
+      <StoreName />
+      <StoreLocation />
+      <FindType />
+      <FindValue />
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks>Action:RUN|RUNPARALLE|STOP|GETSTATUS|GETJOBINFO</Remarks>
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>200:OK</Status>
+    <ResponseHeaders>Content-Length: 664
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Thu, 17 Dec 2015 05:10:48 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+    <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&lt;JobClassFullName&gt;Hotel.Order.JobWSWebService.ShoppingActivityJob,Hotel.Order.JobWSWebService&lt;/JobClassFullName&gt;&lt;Action&gt;RUN&lt;/Action&gt;&lt;Param /&gt;&lt;JobStatus&gt;Running&lt;/JobStatus&gt;&lt;JobResult&gt;Success&lt;/JobResult&gt;&lt;LastEndTime&gt;2015-12-06T00:00:00&lt;/LastEndTime&gt;&lt;JobInfo&gt;开始运行新实例！&lt;/JobInfo&gt;&lt;NeedParallel&gt;false&lt;/NeedParallel&gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+    <TotalExecutionTime>3229.1586</TotalExecutionTime>
+  </Response>
+</History>
+</Histories>

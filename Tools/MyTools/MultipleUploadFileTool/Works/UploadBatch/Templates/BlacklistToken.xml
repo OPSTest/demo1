@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="BlacklistToken">
+    <Processors>
+      <Processor name="GetTokenInfoEx" category="SCS" />
+      <Processor name="BlacklistToken" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="BlacklistToken" internalName="__LineNumber__" type="Int32" />
+      <Field name="Sequence Number" internalName="Token" type="String" />
+      <Field name="Part Number" internalName="PartNumber" type="String" />
+      <Field name="Effective Time" internalName="EffectiveTime" type="String" optional="true" />
+      <Field name="Reason Code" internalName="Reason" type="String" />
+      <Field name="Description" internalName="Description" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+</Templates>

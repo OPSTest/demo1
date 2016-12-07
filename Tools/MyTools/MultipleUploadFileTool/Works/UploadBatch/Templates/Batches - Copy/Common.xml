@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+    <Template name="TestConnection">
+        <Processors>
+            <Processor name="Echo" category="Utility" />
+        </Processors>
+        <Input>
+            <Field name="Echo" internalName="_LineNumber_" type="Int32" />
+            <Field name="Input" internalName="Input" type="String"  optional="true"/>
+            <Field name="Expected Error" internalName="ExpectedError" type="String"  optional="true"/>
+            <Field name="Sleep Time" internalName="SleepTime" type="Int32" optional="true"/>
+        </Input>
+        <Output>
+            <Field name="Input" internalName="Input" type="String" />
+            <Field name="Echo Message" internalName="Echo" type="String" />
+            <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+        </Output>
+    </Template>
+</Templates>

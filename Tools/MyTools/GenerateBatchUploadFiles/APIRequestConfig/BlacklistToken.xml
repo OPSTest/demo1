@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<APIRequestInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>BlacklistToken	Sequence Number	Part Number	Effective Time	Reason Code	Description</Header>
+  <Rows>
+    <string>49790500000000	OCP-00001	2014-4-17	test	test for batch service</string>
+  </Rows>
+</APIRequestInfo>

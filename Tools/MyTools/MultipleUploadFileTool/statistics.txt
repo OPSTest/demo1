@@ -1,0 +1,64 @@
+Workinfo:Upload Batch
+ThreadAmount:1
+StartTime:2015-01-28 15:13:12:490
+EndTime:2015-01-28 15:13:42:819
+Totally runtime(seconds):30.329
+Totolly Excute times:19, success:19, failed:0
+Speed:0.63 times/s
+                                            
+Workinfo:Upload Batch
+ThreadAmount:1
+StartTime:2015-01-28 15:18:31:911
+EndTime:2015-01-28 15:18:56:279
+Totally runtime(seconds):24.367
+Totolly Excute times:5, success:5, failed:0
+Speed:0.21 times/s
+                                            
+Workinfo:Upload Batch
+ThreadAmount:1
+StartTime:2015-01-29 17:39:19:281
+EndTime:2015-01-29 19:19:19:284
+Totally runtime(seconds):6000.003
+Totolly Excute times:1, success:0, failed:1
+Speed:0.00 times/s
+                                            
+Workinfo:Upload Batch
+ThreadAmount:1
+StartTime:2015-02-01 16:20:43:913
+EndTime:2015-02-01 18:00:43:917
+Totally runtime(seconds):6000.004
+Totolly Excute times:1, success:0, failed:1
+Speed:0.00 times/s
+                                            
+Workinfo:Upload Batch
+ThreadAmount:1
+StartTime:2015-03-26 09:18:24:327
+EndTime:2015-03-26 09:18:39:328
+Totally runtime(seconds):15.000
+Totolly Excute times:23, success:23, failed:0
+Speed:1.53 times/s
+                                            
+Workinfo:Upload Batch
+ThreadAmount:8
+StartTime:2015-06-17 17:17:17:008
+EndTime:2015-06-17 18:50:05:646
+Totally runtime(seconds):5568.637
+Totolly Excute times:6949, success:5679, failed:1270
+Speed:1.25 times/s
+                                            
+Workinfo:Upload Batch
+ThreadAmount:8
+StartTime:2015-06-30 15:16:45:745
+EndTime:2015-06-30 15:17:56:530
+Totally runtime(seconds):70.785
+Totolly Excute times:94, success:94, failed:0
+Speed:1.33 times/s
+                                            
+Workinfo:Upload Batch
+ThreadAmount:1
+StartTime:2015-06-30 16:34:04:213
+EndTime:2015-06-30 16:38:01:039
+Totally runtime(seconds):236.827
+Totolly Excute times:2, success:0, failed:2
+Speed:0.01 times/s
+                                            

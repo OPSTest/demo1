@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+  <HistoryDateTime>2016-01-29 11:00:28:365</HistoryDateTime>
+  <Request>
+    <Name>GetFaxToHotel</Name>
+    <CategoryName>Local_Order_OrderConfirm</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders />
+    <RequestUrl>http://HtlWS.fat9.qa.nt.ctripcorp.com/HotelOrderProcess/HtlProcessConfirm.asmx</RequestUrl>
+    <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+&lt;Header UserID="110260" RequestID="244331a9-767e-4197-b3af-0b5ef033d34f" RequestType="Hotel.OrderConfirm.GetFaxToHotelRequest" ClientIP="10.2.8.12" AsyncRequest="false" Timeout="0" MessagePriority="3" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fat2" UseMemoryQ="false" /&gt;
+&lt;GetFaxToHotelRequest&gt;
+ &lt;OrderID&gt;2170048163&lt;/OrderID&gt;
+ &lt;FaxType&gt;N&lt;/FaxType&gt;
+ &lt;EID&gt;qqmei&lt;/EID&gt;
+ &lt;Remark&gt;ABCD&lt;/Remark&gt;
+ &lt;RemarkToCtrip&gt;EFGH&lt;/RemarkToCtrip&gt;
+&lt;/GetFaxToHotelRequest&gt;
+&lt;/Request&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+    <RequestContentType>text/xml</RequestContentType>
+    <ClientCertInfo>
+      <StoreName />
+      <StoreLocation />
+      <FindType />
+      <FindValue />
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks>酒店传真回调携程接口</Remarks>
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>200:OK</Status>
+    <ResponseHeaders>Content-Length: 758
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Fri, 29 Jan 2016 02:59:59 GMT
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+    <ResponseString>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;soap:Body&gt;&lt;RequestResponse xmlns="http://tempuri.org/"&gt;&lt;RequestResult&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;Response&amp;gt;
+  &amp;lt;Header ServerIP="10.2.8.37" ShouldRecordPerformanceTime="false" UserID="110260" Timestamp="2016-01-29 10:59:59:70997" RequestID="244331a9-767e-4197-b3af-0b5ef033d34f" ResultCode="Fail" ResultNo="111205000003" ResultMsg="RequestType Invalid." AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fat2" /&amp;gt;
+&amp;lt;/Response&amp;gt;&lt;/RequestResult&gt;&lt;/RequestResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</ResponseString>
+    <TotalExecutionTime>140.014</TotalExecutionTime>
+  </Response>
+  <Remarks>fat9_200_2170048163</Remarks>
+</History>
+</Histories>

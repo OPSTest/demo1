@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="AzureRemovePaymentInstrument">
+    <Processors>
+      <Processor name="RemovePaymentInstrument" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="RemovePaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="Paymentment Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="PaymentInstrumentRefID" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="OnBehalfOfPartnerGuid" internalName="OnBehalfOfPartnerGuid" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureAddViolation">
+    <Processors>
+      <Processor name="AddViolation" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="AddViolation" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="StateChangeReason" internalName="StateChangeReason" type="Int32" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureRemoveViolation">
+    <Processors>
+      <Processor name="RemoveViolation" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="RemoveViolation" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="StateChangeReason" internalName="StateChangeReason" type="Int32" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureCancelSubscription">
+    <Processors>
+      <Processor name="CancelSubscription" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="CancelSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="StateChangeReason" internalName="StateChangeReason" type="Int32" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureReinstateSubscription">
+    <Processors>
+      <Processor name="ReinstateSubscription" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="ReinstateSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="StateChangeReason" internalName="StateChangeReason" type="Int32" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureUpdateTaxId">
+    <Processors>
+      <Processor name="UpdateTaxId" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="UpdateTaxId" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="TaxIdType" internalName="TaxIdType" type="String" format="VatId|RegistrationNumber|CNPJId"/>
+      <Field name="TaxId" internalName="TaxId" type="String"/>
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureRenewSubscription">
+    <Processors>
+      <Processor name="RenewSubscription" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="RenewSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="State" internalName="State" type="String" />
+      <Field name="NonRenewalReason" internalName="NonRenewalReason" type="String" />
+      <Field name="OfferId" internalName="OfferId" type="String" optional="true" />
+      <Field name="BillingCycle" internalName="BillingCycle" type="String" optional="true" />
+      <Field name="Quantity" internalName="Quantity" type="Int32" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureTransferSubscription">
+    <Processors>
+      <Processor name="TransferSubscription" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="TransferSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="TargetAccountId" internalName="TargetAccountId" type="Guid" />
+      <Field name="TargetPaymentInstrumentId" internalName="TargetPaymentInstrumentId" type="String" optional="true"/>
+      <Field name="TargetPaymentAccountPuid" internalName="TargetPaymentAccountPuid" type="Int64"/>
+      <Field name="TargetTaxAddressInfoXml" internalName="TargetTaxAddressInfoXml" type="String" optional="true"/>
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureManageOrder">
+    <Processors>
+      <Processor name="ManageOrder" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="ManageOrder" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="OrderId" internalName="OrderId" type="Guid" />
+      <Field name="State" internalName="State" type="String"/>
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureSwitchPaymentInstrument">
+    <Processors>
+      <Processor name="SwitchPaymentInstrument" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="SwitchPaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="NewPaymentInstrumentId" internalName="NewPaymentInstrumentId" type="String" optional="true" />
+      <Field name="OldPaymentInstrumentId" internalName="OldPaymentInstrumentId" type="String" optional="true" />
+      <Field name="PaymentAccountPuid" internalName="PaymentAccountPuid" type="Int64"/>
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureUpdateSubscriptionInfo">
+    <Processors>
+      <Processor name="UpdateSubscriptionInfo" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="UpdateSubscriptionInfo" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="NewPaymentInstrumentId" internalName="NewPaymentInstrumentId" type="String" optional="true" />
+      <Field name="PaymentAccountPuid" internalName="PaymentAccountPuid" type="Int64"/>
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureAdjustMonetaryCommitmentDiscountRate">
+    <Processors>
+      <Processor name="AdjustMonetaryCommitmentDiscountRate" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="AdjustMonetaryCommitmentDiscountRate" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="DiscountRate" internalName="DiscountRate" type="Decimal" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureDecreaseMonetaryCommitmentAmount">
+    <Processors>
+      <Processor name="DecreaseMonetaryCommitmentAmount" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="DecreaseMonetaryCommitmentAmount" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="Quantity" internalName="Quantity" type="Int32" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureUpdateAccountInfo">
+    <Processors>
+      <Processor name="UpdateAccountInfo" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="UpdateAccountInfo" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="AccountInfoXml" internalName="AccountInfoXML" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureConvertSubscription">
+    <Processors>
+      <Processor name="ConvertSubscription" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="ConvertSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="SubscriptionId" internalName="SubscriptionId" type="Guid" />
+      <Field name="OfferId" internalName="OfferId" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AzureIncreaseMonetaryCreditAmount">
+    <Processors>
+      <Processor name="IncreaseMonetaryCreditAmount" category="AOO" />
+    </Processors>
+    <Input>
+      <Field name="IncreaseMonetaryCreditAmount" internalName="__LineNumber__" type="Int32" />
+      <Field name="CommerceAccountId" internalName="CommerceAccountId" type="Guid" />
+      <Field name="PrepaidBalanceId" internalName="PrepaidBalanceId" type="Guid" optional="true" />
+      <Field name="Amount" internalName="Amount" type="Decimal" optional="true" />
+      <Field name="CurrencyCode" internalName="Currency" type="String" optional="true" />
+      <Field name="Description" internalName="Description" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+</Templates>

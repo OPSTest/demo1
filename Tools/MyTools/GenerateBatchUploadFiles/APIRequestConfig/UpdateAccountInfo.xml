@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<APIRequestInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>UpdateAccountInfo	Delegate High	Delegate Low	Requester High	Requester Low	Billable Account	Account Info XML</Header>
+  <Rows>
+    <string>1	1	101	102	17151	&lt;AccountInfo xmlns="urn:schemas-microsoft-com:billing-data"&gt;&lt;AccountStatusInfo&gt;    &lt;AccountStatus&gt;&lt;/AccountStatus&gt;    &lt;ViolationSet&gt;        &lt;ViolationId&gt;&lt;/ViolationId&gt;    &lt;/ViolationSet&gt;&lt;/AccountStatusInfo&gt;&lt;AnniversaryDate&gt;&lt;/AnniversaryDate&gt;&lt;CustomerType&gt;PERSONAL&lt;/CustomerType&gt;&lt;FriendlyName&gt;Foo Bar's Account&lt;/FriendlyName&gt;&lt;FirstName&gt;Andy_updated&lt;/FirstName&gt;&lt;FirstNamePronunciation&gt;Foo&lt;/FirstNamePronunciation&gt;&lt;LastName&gt;Andy3533&lt;/LastName&gt;&lt;LastNamePronunciation&gt;Bar&lt;/LastNamePronunciation&gt;&lt;Email&gt;foo@bar.com&lt;/Email&gt;&lt;CompanyName&gt;WKRP&lt;/CompanyName&gt;&lt;CompanyNamePronunciation&gt;Dubilyookayarpee&lt;/CompanyNamePronunciation&gt;&lt;Locale&gt;EN-US&lt;/Locale&gt;&lt;HCI&gt;No&lt;/HCI&gt;&lt;HCIValid&gt;No&lt;/HCIValid&gt;&lt;Currency&gt;USD&lt;/Currency&gt;&lt;CountryCode&gt;US&lt;/CountryCode&gt;&lt;/AccountInfo&gt;</string>
+  </Rows>
+</APIRequestInfo>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ToolInfos>
+  <ToolInfo>
+  <Id>20150217102654</Id>
+  <ToolName>nc64.exe</ToolName>
+  <ToolDisplayName>nc64</ToolDisplayName>
+  <ToolPath>%CurrentDir%\Tools\GreenTools\netcat-win32-1.12\</ToolPath>
+</ToolInfo>
+</ToolInfos>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+    <HistoryDateTime>2015-11-24 12:30:42:641</HistoryDateTime>
+    <Request>
+      <Name>UAID-)AccountInfo</Name>
+      <CategoryName>INT-ModelAccountService</CategoryName>
+      <RequestMethod>GET</RequestMethod>
+      <RequestHeaders>x-ms-tracking-id:b39780a9-9e75-4d26-8371-3fefaac3acb4|x-ms-correlation-id:2db591d8-37fe-40d8-b91e-58e9d644ad30|api-version:2014-09-01</RequestHeaders>
+      <RequestUrl>https://accounts.cp.microsoft-int.com/2b6320b4-82ea-4fd2-aa34-173c48bed633/profiles?type=intellectual_property_services</RequestUrl>
+      <RequestParameters />
+      <RequestContentType>application/json</RequestContentType>
+      <ClientCertInfo>
+        <StoreName>My</StoreName>
+        <StoreLocation>LocalMachine</StoreLocation>
+        <FindType>FindByThumbprint</FindType>
+        <FindValue>347041DD76ED4ED57CB964BFED47D3BC1994E0B7</FindValue>
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks />
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>api-version: 2014-09-01
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+Content-Length: 1304
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Tue, 24 Nov 2015 04:30:39 GMT
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>{"item_count":1,"items":[{"first_name":"Dev_EST_4","last_name":"Payout","email_address":"developer4@testhost.com","culture":"en-US","default_payment_instrument_id":"ojcEBAAAAAABAACA","default_tax_profile_id":"26810142102","payout_external_reference_id":"ojcEBAAAAAAAAAAA","account_id":"2b6320b4-82ea-4fd2-aa34-173c48bed633","id":"15997365-2655-4358-a3bd-083dc17f44e5","snapshot_id":"15997365-2655-4358-a3bd-083dc17f44e5/6","type":"intellectual_property_services","default_address_id":"663bb8b9-c26d-4b39-ba27-0e544342ba1a","links":{"self":{"href":"2b6320b4-82ea-4fd2-aa34-173c48bed633/profiles/15997365-2655-4358-a3bd-083dc17f44e5","method":"GET"},"snapshot":{"href":"2b6320b4-82ea-4fd2-aa34-173c48bed633/profiles/15997365-2655-4358-a3bd-083dc17f44e5/6","method":"GET"},"update":{"href":"2b6320b4-82ea-4fd2-aa34-173c48bed633/profiles/15997365-2655-4358-a3bd-083dc17f44e5","method":"POST"},"default_address":{"href":"2b6320b4-82ea-4fd2-aa34-173c48bed633/addresses/663bb8b9-c26d-4b39-ba27-0e544342ba1a","method":"GET"}},"object_type":"IntellectualPropertyServicesProfile","contract_version":"2014-09-01","resource_status":"Active"}],"links":{"add":{"href":"2b6320b4-82ea-4fd2-aa34-173c48bed633/profiles","method":"POST"}},"object_type":"Profiles","contract_version":"2014-09-01","resource_status":"Active"}</ResponseString>
+      <TotalExecutionTime>2377.136</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-11-24 13:59:04:511</HistoryDateTime>
+    <Request>
+      <Name>UAID-)AccountInfo</Name>
+      <CategoryName>INT-ModelAccountService</CategoryName>
+      <RequestMethod>GET</RequestMethod>
+      <RequestHeaders>x-ms-tracking-id:b39780a9-9e75-4d26-8371-3fefaac3acb4|x-ms-correlation-id:2db591d8-37fe-40d8-b91e-58e9d644ad30|api-version:2014-09-01</RequestHeaders>
+      <RequestUrl>https://accounts.cp.microsoft-int.com/00751975-53F6-4082-AA78-5AADDA6220DF/profiles?type=intellectual_property_services</RequestUrl>
+      <RequestParameters />
+      <RequestContentType>application/json</RequestContentType>
+      <ClientCertInfo>
+        <StoreName>My</StoreName>
+        <StoreLocation>LocalMachine</StoreLocation>
+        <FindType>FindByThumbprint</FindType>
+        <FindValue>347041DD76ED4ED57CB964BFED47D3BC1994E0B7</FindValue>
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks />
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>400:BadRequest</Status>
+      <ResponseHeaders>api-version: 2014-09-01
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+Content-Length: 282
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Tue, 24 Nov 2015 05:59:01 GMT
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>{"code":"invalid_query_parameter","message":"A query parameter had an unexpected value.","retryable":false,"parameters":{"parameter_name":"owner_id","details":"","x-ms-correlation-id":"2db591d8-37fe-40d8-b91e-58e9d644ad30","x-ms-tracking-id":"b39780a9-9e75-4d26-8371-3fefaac3acb4"}}</ResponseString>
+      <TotalExecutionTime>2328.1332</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+    <HistoryDateTime>2015-11-24 14:00:57:720</HistoryDateTime>
+    <Request>
+      <Name>UAID-)AccountInfo</Name>
+      <CategoryName>INT-ModelAccountService</CategoryName>
+      <RequestMethod>GET</RequestMethod>
+      <RequestHeaders>x-ms-tracking-id:b39780a9-9e75-4d26-8371-3fefaac3acb4|x-ms-correlation-id:2db591d8-37fe-40d8-b91e-58e9d644ad30|api-version:2014-09-01</RequestHeaders>
+      <RequestUrl>https://accounts.cp.microsoft-int.com/12833ad58e3d417a8358e76b5ac5263401/profiles?type=intellectual_property_services</RequestUrl>
+      <RequestParameters />
+      <RequestContentType>application/json</RequestContentType>
+      <ClientCertInfo>
+        <StoreName>My</StoreName>
+        <StoreLocation>LocalMachine</StoreLocation>
+        <FindType>FindByThumbprint</FindType>
+        <FindValue>347041DD76ED4ED57CB964BFED47D3BC1994E0B7</FindValue>
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks />
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>api-version: 2014-09-01
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+Content-Length: 198
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Tue, 24 Nov 2015 06:00:54 GMT
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+      <ResponseString>{"item_count":0,"items":[],"links":{"add":{"href":"12833ad58e3d417a8358e76b5ac5263401/profiles","method":"POST"}},"object_type":"Profiles","contract_version":"2014-09-01","resource_status":"Active"}</ResponseString>
+      <TotalExecutionTime>2318.1326</TotalExecutionTime>
+    </Response>
+  </History>
+  <History>
+  <HistoryDateTime>2015-11-24 14:04:02:357</HistoryDateTime>
+  <Request>
+    <Name>UAID-)AccountInfo</Name>
+    <CategoryName>INT-ModelAccountService</CategoryName>
+    <RequestMethod>GET</RequestMethod>
+    <RequestHeaders>x-ms-tracking-id:b39780a9-9e75-4d26-8371-3fefaac3acb4|x-ms-correlation-id:2db591d8-37fe-40d8-b91e-58e9d644ad30|api-version:2014-09-01</RequestHeaders>
+    <RequestUrl>https://accounts.cp.microsoft-int.com/12833ad58e3d417a8358e76b5ac5263401/profiles</RequestUrl>
+    <RequestParameters />
+    <RequestContentType>application/json</RequestContentType>
+    <ClientCertInfo>
+      <StoreName>My</StoreName>
+      <StoreLocation>LocalMachine</StoreLocation>
+      <FindType>FindByThumbprint</FindType>
+      <FindValue>347041DD76ED4ED57CB964BFED47D3BC1994E0B7</FindValue>
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks />
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>200:OK</Status>
+    <ResponseHeaders>api-version: 2014-09-01
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+Content-Length: 1088
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Tue, 24 Nov 2015 06:03:00 GMT
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+</ResponseHeaders>
+    <ResponseString>{"item_count":1,"items":[{"first_name":"Tom","last_name":"Slick","email_address":"Andy4946@microsoft.com","culture":"en-US","account_id":"12833ad58e3d417a8358e76b5ac5263401","id":"635b0deb3ade4359b50990dc079838fa01","snapshot_id":"635b0deb3ade4359b50990dc079838fa01/1","type":"consumer","default_address_id":"f8d170120acc4bb9af88b6d395d75fcb01","links":{"self":{"href":"12833ad58e3d417a8358e76b5ac5263401/profiles/635b0deb3ade4359b50990dc079838fa01","method":"GET"},"snapshot":{"href":"12833ad58e3d417a8358e76b5ac5263401/profiles/635b0deb3ade4359b50990dc079838fa01/1","method":"GET"},"update":{"href":"12833ad58e3d417a8358e76b5ac5263401/profiles/635b0deb3ade4359b50990dc079838fa01","method":"POST"},"default_address":{"href":"12833ad58e3d417a8358e76b5ac5263401/addresses/f8d170120acc4bb9af88b6d395d75fcb01","method":"GET"}},"object_type":"ConsumerProfile","contract_version":"2014-09-01","resource_status":"Active"}],"links":{"add":{"href":"12833ad58e3d417a8358e76b5ac5263401/profiles","method":"POST"}},"object_type":"Profiles","contract_version":"2014-09-01","resource_status":"Active"}</ResponseString>
+    <TotalExecutionTime>1998.1143000000002</TotalExecutionTime>
+  </Response>
+  <Remarks />
+</History>
+</Histories>

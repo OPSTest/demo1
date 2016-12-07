@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="CTUpdatePaymentInstrument">
+    <Processors>
+      <Processor name="UpdatePaymentInstrument" category="CT" />
+    </Processors>
+    <Input>
+      <Field name="UpdatePaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="UpdatePaymentInstrumentInput" internalName="UpdatePaymentInstrumentInput" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+</Templates>

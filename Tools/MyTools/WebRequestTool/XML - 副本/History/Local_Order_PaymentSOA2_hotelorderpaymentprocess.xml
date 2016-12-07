@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+  <HistoryDateTime>2015-12-28 14:48:21:790</HistoryDateTime>
+  <Request>
+    <Name>hotelorderpaymentprocess</Name>
+    <CategoryName>Local_Order_PaymentSOA2</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders />
+    <RequestUrl>http://localhost:31746/api/hotelorderpaymentprocess</RequestUrl>
+    <RequestParameters>{"OrderPaymentProcessRequest":{"JobID":135986,"OrderID":2150516567,"ExternalNo":5e26f180d64f4871a3eaf7f0c832fdeb,"ProcessState":0},"Version":0,"ClientUniqueID":""}</RequestParameters>
+    <RequestContentType>application/json</RequestContentType>
+    <ClientCertInfo>
+      <StoreName />
+      <StoreLocation />
+      <FindType />
+      <FindValue />
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks>支付回调逻辑处理</Remarks>
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>200:OK</Status>
+    <ResponseHeaders>SOA20-Service-AppId: 110252
+SOA20-Service-HostIP: 10.32.105.123
+SOA20-Response-Status: Success
+X-SourceFiles: =?UTF-8?B?RDpcU291cmNlQ29kZVxjdHJpcFxIb3RlbC5PcmRlci1FbWFpbDJNb2RpZnliYXRjaDNcT3JkZXJTZXJ2aWNlXEhvdGVsLk9yZGVyLlBheW1lbnRcSG90ZWwuT3JkZXIuUGF5bWVudFNlcnZpY2VJbXBsZW1lbnRhdGlvblxhcGlcaG90ZWxvcmRlcnBheW1lbnRwcm9jZXNz?=
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: CTrip/SOA2.0 Win32NT/.NET,ASP.NET
+Date: Mon, 28 Dec 2015 06:48:21 GMT
+Content-Length: 106
+
+</ResponseHeaders>
+    <ResponseString>{"ResponseStatus":{"Timestamp":"\/Date(1451285301751 0800)\/","Ack":"Success","Errors":[],"Extension":[]}}</ResponseString>
+    <TotalExecutionTime>221582</TotalExecutionTime>
+  </Response>
+</History>
+</Histories>

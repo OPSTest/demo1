@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLFileInfos>
+  <XMLFileInfo>
+    <FileName>root</FileName>
+    <Classification>root</Classification>
+  </XMLFileInfo>
+  <XMLFileInfo>
+    <FileName>TabTemplete</FileName>
+    <Classification>tabconfiguration</Classification>
+  </XMLFileInfo>
+  <XMLFileInfo>
+    <FileName>ToolStart</FileName>
+    <PrimaryKey>Id</PrimaryKey>
+  </XMLFileInfo>
+  <XMLFileInfo>
+    <FileName>Local</FileName>
+    <Classification>tabconfiguration</Classification>
+  </XMLFileInfo>
+  <XMLFileInfo>
+    <FileName>GreenTool</FileName>
+    <Classification>tabconfiguration</Classification>
+  </XMLFileInfo>
+  <XMLFileInfo>
+    <FileName>Services</FileName>
+    <Classification>tabconfiguration</Classification>
+  </XMLFileInfo>
+  <XMLFileInfo>
+    <FileName>Scripts</FileName>
+    <Classification>tabconfiguration</Classification>
+  </XMLFileInfo>
+  <XMLFileInfo>
+    <FileName>Network</FileName>
+    <Classification>tabconfiguration</Classification>
+  </XMLFileInfo>
+  <XMLFileInfo>
+  <FileName>Abandon</FileName>
+  <Classification>tabconfiguration</Classification>
+</XMLFileInfo>
+</XMLFileInfos>

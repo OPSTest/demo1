@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ToolInfos>
+  <ToolInfo>
+    <Id>20150628144333</Id>
+    <ToolName>MOAcceptanceFilegenerator.exe</ToolName>
+    <ToolDisplayName>MOAcceptanceFilegenerator</ToolDisplayName>
+    <ToolPath>%CurrentDir%\Tools\MyTools\MOAccantanceFilegenerator\</ToolPath>
+  </ToolInfo>
+  <ToolInfo>
+  <Id>20150915155603</Id>
+  <ToolName>LogExplorer.exe</ToolName>
+  <ToolDisplayName>LogExplorer</ToolDisplayName>
+  <ToolPath>%CurrentDir%\Tools\MyTools\ToolsTeamLogParser\</ToolPath>
+</ToolInfo>
+</ToolInfos>

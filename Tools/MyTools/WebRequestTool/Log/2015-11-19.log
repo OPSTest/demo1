@@ -1,0 +1,52 @@
+Error(2015-11-19 10:17:23:483)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 10:30:41:883)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 10:35:48:558)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 10:47:16:029)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 11:24:29:507)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 11:25:05:918)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 11:25:57:688)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 12:35:00:535)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 12:37:19:883)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 12:37:45:232)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 12:45:01:088)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 13:15:21:690)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+
+Error(2015-11-19 18:13:38:210)
+[Message]:Object reference not set to an instance of an object.
+[StackTrace]:   at Sunny.Lib.ConfigurationHelper.GetAppSettingsConfigrationByName(String configrationName) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\Sunny.Lib\ConfigurationHelper.cs:line 372
+

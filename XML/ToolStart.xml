@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ToolInfos>
+  <MonitorFold>C:\Users\lenovo\Documents\我接收到的文件\sunqixinxin1088349079\历史记录</MonitorFold>
+  <MonitorFile>sunqixin7122199131256.xml</MonitorFile>
+  <MonitorInterval>5</MonitorInterval>
+  <ToolInfo>
+    <Id>201210132618</Id>
+    <ToolName>notepad.exe</ToolName>
+    <ToolPath>%windir%\System32</ToolPath>
+    <StartString>Help to start notepad</StartString>
+    <EndString>Help to end notepad</EndString>
+    <UserName></UserName>
+    <PassWord></PassWord>
+    <Domain></Domain>
+    <IsEnabled>true</IsEnabled>
+  </ToolInfo>
+  <ToolInfo>
+    <Id>201210132620</Id>
+    <ToolName>TeamViewer.exe</ToolName>
+    <ToolPath>:%ProgramFiles%\Version7</ToolPath>
+    <StartString>Help to start teamviewer</StartString>
+    <EndString>Help to end teamviewer</EndString>
+    <UserName></UserName>
+    <PassWord></PassWord>
+    <Domain></Domain>
+    <IsEnabled>false</IsEnabled>
+  </ToolInfo>
+</ToolInfos>

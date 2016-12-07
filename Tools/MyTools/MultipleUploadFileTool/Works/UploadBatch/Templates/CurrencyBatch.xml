@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="OffsetLineItem">
+    <Processors>
+      <Processor name="OffsetLineItem" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="OffsetLineItem" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Line Item ID" internalName="LineItemID" type="String" />
+      <Field name="Financial Reporting Code" internalName="FinancialReportingCode" type="Int32" />
+      <Field name="Immediately Settle" internalName="ImmediatelySettle" type="Boolean" />
+      <Field name="Amount" internalName="Amount" type="String" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CreditPaymentInstrumentEx2">
+    <Processors>
+      <Processor name="CreditPaymentInstrumentEx2" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="CreditPaymentInstrumentEx2" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="PI Ref" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Sku Reference XML" internalName="SkuReferenceXML" type="Xml" optional="true" />
+      <Field name="Property XML" internalName="PropertyXML" type="Xml" optional="true" />
+      <Field name="Reason" internalName="FinancialReportingCode" type="Int32" />
+      <Field name="Amount" internalName="Amount" type="String" />
+      <Field name="Immediate Settle" internalName="ImmediatelySettle" type="Boolean" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="RefundPurchase">
+    <Processors>
+      <Processor name="RefundPurchase" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="RefundPurchase" internalName="__LineNumber__" type="Int32" />
+      <Field name="RefundPurchaseRequest" internalName="RefundPurchaseRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CreditPaymentInstrumentEx3">
+    <Processors>
+      <Processor name="CreditPaymentInstrumentEx3" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="CreditPaymentInstrumentEx3" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="PI Ref" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Sku Reference XML" internalName="SkuReferenceXML" type="Xml" optional="true" />
+      <Field name="Property XML" internalName="PropertyXML" type="Xml" optional="true" />
+      <Field name="Reason" internalName="FinancialReportingCode" type="Int32" />
+      <Field name="Amount" internalName="Amount" type="String" />
+      <Field name="Currency" internalName="Currency" type="String" optional="true" />
+      <Field name="Immediate Settle" internalName="ImmediatelySettle" type="Boolean" optional="true" defaultValue="false" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+      <Field name="StoredValueLot ExpirationDate" internalName="StoredValueLotExpirationDate" type="String" optional="true" />
+      <Field name="StoredValueLot Type" internalName="StoredValueLotType" type="String" optional="true" />
+      <Field name="StoredValue Sku" internalName="StoredValueSku" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="RefundTax">
+    <Processors>
+      <Processor name="RefundTax" category="MINT" />
+    </Processors>
+    <Input>
+      <Field name="RefundTax" internalName="__LineNumber__" type="Int32" />
+      <Field name="RefundTaxRequest" internalName="RefundTaxRequest" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+</Templates>

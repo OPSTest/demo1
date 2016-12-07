@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<APIRequestInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>CancelSubscription	Delegate High	Delegate Low	Requester High	Requester Low	Compute Only	Billable Account	Subs Ref	Cancel Date	Comment XML</Header>
+  <Rows>
+    <string>1	1	101	102	0	13051	1	IMMEDIATE_CANCEL	&lt;CommentInfo xmlns="urn:schemas-microsoft-com:billing-data"&gt;&lt;CommentCode&gt;200707&lt;/CommentCode&gt;&lt;CommentText&gt;CancelSubscription for deployment verification&lt;/CommentText&gt;&lt;/CommentInfo&gt;</string>
+  </Rows>
+</APIRequestInfo>

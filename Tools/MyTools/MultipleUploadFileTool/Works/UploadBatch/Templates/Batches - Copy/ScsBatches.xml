@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="AddComment">
+    <Processors>
+      <Processor name="AddComment" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="AddComment" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Comment XML" internalName="CommentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CancelSubscription">
+    <Processors>
+      <Processor name="CancelSubscription" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="CancelSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Compute Only" internalName="ComputeOnly" type="Boolean" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Cancel Date" internalName="Date" type="String" />
+      <Field name="Comment XML" internalName="CommentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ConvertSubscription">
+    <Processors>
+      <Processor name="ConvertSubscription" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="ConvertSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Compute Only" internalName="ComputeOnly" type="Boolean" />
+      <Field name="Convert Mode" internalName="ConvertMode" type="Int32" />
+      <Field name="Override Flags" internalName="OverrideFlags" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Subs Name" internalName="SubscriptionName" type="String" optional="true" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Deal GUID" internalName="OfferingGUID" type="Guid" />
+      <Field name="Override Amount" internalName="OverrideAmount" type="Int32" optional="true" defaultValue="0" />
+      <Field name="End Date" internalName="Date" type="String" optional="true" />
+      <Field name="Referral XML" internalName="ReferralSetXML" type="Xml" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="UpdateSubscriptionInfo">
+    <Processors>
+      <Processor name="UpdateSubscriptionInfo" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="UpdateSubscriptionInfo" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Subs Info XML" internalName="SubscriptionInfoXML" type="Xml" />
+      <Field name="Referral Info XML" internalName="ReferralSetXML" type="Xml" optional="true" defaultValue="" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AddRoleAssignment">
+    <Processors>
+      <Processor name="AddRoleAssignment" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="AddRoleAssignment" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Role Info XML" internalName="RoleAssignmentXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="RemoveRoleAssignment">
+    <Processors>
+      <Processor name="RemoveRoleAssignment" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="RemoveRoleAssignment" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Role Info XML" internalName="RoleAssignmentXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ActivateToken">
+    <Processors>
+      <Processor name="GetTokenInfoEx" category="SCS" />
+      <Processor name="ActivateToken" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="ActivateToken" internalName="__LineNumber__" type="Int32" />
+      <Field name="Sequence Number" internalName="Token" type="String" />
+      <Field name="Part Number" internalName="PartNumber" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="BlacklistToken">
+    <Processors>
+      <Processor name="GetTokenInfoEx" category="SCS" />
+      <Processor name="BlacklistToken" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="BlacklistToken" internalName="__LineNumber__" type="Int32" />
+      <Field name="Sequence Number" internalName="Token" type="String" />
+      <Field name="Part Number" internalName="PartNumber" type="String" />
+      <Field name="Effective Time" internalName="EffectiveTime" type="String" optional="true" />
+      <Field name="Reason Code" internalName="Reason" type="String" />
+      <Field name="Description" internalName="Description" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="OffsetLineItem">
+    <Processors>
+      <Processor name="OffsetLineItem" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="OffsetLineItem" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Line Item ID" internalName="LineItemID" type="String" />
+      <Field name="Financial Reporting Code" internalName="FinancialReportingCode" type="Int32" />
+      <Field name="Immediately Settle" internalName="ImmediatelySettle" type="Boolean" />
+      <Field name="Amount" internalName="Amount" type="String" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+      <Field name="Currency" internalName="Currency" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CreditPaymentInstrumentEx3">
+    <Processors>
+      <Processor name="CreditPaymentInstrumentEx3" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="CreditPaymentInstrumentEx3" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="PI Ref" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Sku Reference XML" internalName="SkuReferenceXML" type="Xml" optional="true" />
+      <Field name="Property XML" internalName="PropertyXML" type="Xml" optional="true" />
+      <Field name="Reason" internalName="FinancialReportingCode" type="Int32" />
+      <Field name="Amount" internalName="Amount" type="String" />
+      <Field name="Currency" internalName="Currency" type="String" optional="true" />
+      <Field name="Immediate Settle" internalName="ImmediatelySettle" type="Boolean" optional="true" defaultValue="false" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+      <Field name="StoredValueLot ExpirationDate" internalName="StoredValueLotExpirationDate" type="String" optional="true" />
+      <Field name="StoredValueLot Type" internalName="StoredValueLotType" type="String" optional="true" />
+      <Field name="StoredValue Sku" internalName="StoredValueSku" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CreditPaymentInstrumentEx2">
+    <Processors>
+      <Processor name="CreditPaymentInstrumentEx2" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="CreditPaymentInstrumentEx2" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="PI Ref" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Sku Reference XML" internalName="SkuReferenceXML" type="Xml" optional="true" />
+      <Field name="Property XML" internalName="PropertyXML" type="Xml" optional="true" />
+      <Field name="Reason" internalName="FinancialReportingCode" type="Int32" />
+      <Field name="Amount" internalName="Amount" type="String" />
+      <Field name="Immediate Settle" internalName="ImmediatelySettle" type="Boolean" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+      <Field name="Currency" internalName="Currency" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CloseBalance">
+    <Processors>
+      <Processor name="CloseBalance" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="CloseBalance" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="PI Ref ID" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Line Item ID" internalName="LineItemID" type="String" optional="true" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="SettleBalance">
+    <Processors>
+      <Processor name="SettleBalance" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="SettleBalance" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="PI Ref ID" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="UpdateAccountInfo">
+    <Processors>
+      <Processor name="UpdateAccountInfo" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="UpdateAccountInfo" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Account Info XML" internalName="AccountInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ProvisionServices">
+    <Processors>
+      <Processor name="ProvisionServices" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="ProvisionServices" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Service Info XML" internalName="ServiceInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CloseAccount">
+    <Processors>
+      <Processor name="CloseAccount" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="CloseAccount" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Comment XML" internalName="CommentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="RemoveViolation">
+    <Processors>
+      <Processor name="RemoveViolation" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="RemoveViolation" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Violation ID" internalName="ViolationID" type="Int32" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="RemovePaymentInstrument">
+    <Processors>
+      <Processor name="RemovePaymentInstrument" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="RemovePaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Payment Method ID" internalName="PaymentInstrumentRefID" type="Int32" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="SwitchPaymentInstrument">
+    <Processors>
+      <Processor name="SwitchPaymentInstruments" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="SwitchPaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Old PI ID (opaque)" internalName="PaymentInstrumentBLOB" type="String" />
+      <Field name="New PI ID (opaque)" internalName="NewPaymentInstrumentBLOB" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="TransferBalance">
+    <Processors>
+      <Processor name="TransferBalance" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="TransferBalance" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Source PI ref" internalName="PaymentInstrumentRefID" type="Int32" />
+      <Field name="Dest PI ref" internalName="NewPaymentInstrumentRefID" type="Int32" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ReinstateSubscription">
+    <Processors>
+      <Processor name="ReinstateSubscription" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="ReinstateSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Comment XML" internalName="CommentInfoXML" type="Xml" />
+      <Field name="Reserved(must be 0)" internalName="ReservedColumn" type="Int32" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="WriteOffBalance">
+    <Processors>
+      <Processor name="WriteOffBalance" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="WriteOffBalance" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="TrackingGuid" internalName="TrackingGUID" type="Guid" />
+      <Field name="Balance ID" internalName="BalanceID" type="String" />
+      <Field name="Account ID" internalName="AccountID" type="Int64" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="DeprovisionServices">
+    <Processors>
+      <Processor name="DeprovisionServices" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="DeprovisionServices" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Service Info XML" internalName="ServiceInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AdjustSubscription">
+    <Processors>
+      <Processor name="AdjustSubscription" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="AdjustSubscription" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Billing Period" internalName="BillingPeriodID" type="Int32" />
+      <Field name="GUID Adjustment" internalName="AdjustmentGUID" type="Guid" />
+      <Field name="Amount" internalName="Amount" type="String" />
+      <Field name="Comment XML" internalName="CommentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ConvertSubscriptionEx">
+    <Processors>
+      <Processor name="ConvertSubscriptionEx" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="ConvertSubscriptionEx" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Compute Only" internalName="ComputeOnly" type="Boolean" />
+      <Field name="Convert Mode" internalName="ConvertMode" type="String" />
+      <Field name="Override Flags" internalName="OverrideFlags" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Subs Name" internalName="SubscriptionName" type="String" optional="true" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref" internalName="SubscriptionRefID" type="Int32" />
+      <Field name="Deal GUID" internalName="OfferingGUID" type="Guid" />
+      <Field name="Override Amount" internalName="OverrideAmount" type="Int32" defaultValue="0" />
+      <Field name="End Date" internalName="Date" type="String" optional="true" />
+      <Field name="Referral XML" internalName="ReferralSetXML" type="Xml" optional="true" />
+      <Field name="PI ID" internalName="PaymentInstrumentRefID" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Token ID" internalName="TokenID" type="String" optional="true" />
+      <Field name="Policy ID" internalName="PolicyGUID" type="String" optional="true" />
+      <Field name="Policy Ver" internalName="PolicyVersion" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Signature Date" internalName="SignatureDateTime" type="String" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="DeactivateToken">
+    <Processors>
+      <Processor name="GetTokenInfoEx" category="SCS" />
+      <Processor name="DeactivateToken" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="DeactivateToken" internalName="__LineNumber__" type="Int32" />
+      <Field name="Sequence Number" internalName="Token" type="String" />
+      <Field name="Part Number" internalName="PartNumber" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AddViolation">
+    <Processors>
+      <Processor name="AddViolation" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="AddViolation" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Subs Ref ID" internalName="SubscriptionRefID" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Violation ID" internalName="ViolationID" type="Int32" />
+      <Field name="Comment Info XML" internalName="CommentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="PurchaseOfferingEx2">
+    <Processors>
+      <Processor name="PurchaseOfferingEx2" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="PurchaseOfferingEx2" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Compute Only" internalName="ComputeOnly" type="Boolean" />
+      <Field name="Subscription Name" internalName="SubscriptionName" type="String" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Offering GUID" internalName="OfferingGUID" type="Guid" />
+      <Field name="PI Ref ID" internalName="PaymentInstrumentRefID" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Address Ref ID" internalName="AddressRefID" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Referral Set XML" internalName="ReferralSetXML" type="Xml" />
+      <Field name="Token ID" internalName="TokenID" type="String" optional="true" />
+      <Field name="Policy GUID" internalName="PolicyGUID" type="String" optional="true" />
+      <Field name="Policy Version" internalName="PolicyVersion" type="Int32" optional="true" defaultValue="0" />
+      <Field name="Signature Date" internalName="SignatureDateTime" type="String" optional="true" />
+      <Field name="Redirect Input Info XML" internalName="RedirectInputInfoXML" type="Xml" optional="true" />
+    </Input>
+    <Defaults>
+      <Default name="Override Amount" internalName="OverrideAmount" value="0" />
+    </Defaults>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="BanPaymentInstrument">
+    <Processors>
+      <Processor name="BanPaymentInstrument" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="BanPaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Reason" internalName="FinancialReportingCode" type="Int32" />
+      <Field name="PI Info XML" internalName="PaymentInstrumentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="UnbanPaymentInstrument">
+    <Processors>
+      <Processor name="UnbanPaymentInstrument" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="UnbanPaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="PI Info XML" internalName="PaymentInstrumentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="CreateAccount">
+    <Processors>
+      <Processor name="CreateAccount" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="CreateAccount" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Tracking GUID" internalName="TrackingGUID" type="Guid" />
+      <Field name="Member Name" internalName="MemberName" type="String" />
+      <Field name="Account Info XML" internalName="AccountInfoXML" type="Xml" />
+      <Field name="Payment Info XML" internalName="PaymentInstrumentInfoXML" type="Xml" optional="true" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+      <Field name="Account Id" internalName="AccountID" type="Int64" />
+      <Field name="PaymentInstrument Id" internalName="PaymentInstrumentId" type="Int32" optional="true" />
+    </Output>
+  </Template>
+  <Template name="AddPaymentInstrument">
+    <Processors>
+      <Processor name="AddPaymentInstrument" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="AddPaymentInstrument" internalName="__LineNumber__" type="Int32" />
+      <Field name="Delegate High" internalName="_DelegateHighNotUsed_" type="Int32" />
+      <Field name="Delegate Low" internalName="_DelegateLowNotUsed_" type="Int32" />
+      <Field name="Requester High" internalName="RequesterHigh" type="Int32" />
+      <Field name="Requester Low" internalName="RequesterLow" type="Int32" />
+      <Field name="Billable Account" internalName="AccountID" type="Int64" />
+      <Field name="Payment Instrument XML" internalName="PaymentInstrumentInfoXML" type="Xml" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ScsTestConnection">
+    <Processors>
+      <Processor name="ScsTestConnection" category="SCS" />
+    </Processors>
+    <Input>
+      <Field name="ScsTestConnection" internalName="__LineNumber__" type="Int32" />
+      <Field name="TestConnectionEchoIn" internalName="TestConnectionEchoIn" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+      <Field name="TestConnectionEchoOut" internalName="TestConnectionEchoOut" type="String" />
+    </Output>
+  </Template>
+</Templates>

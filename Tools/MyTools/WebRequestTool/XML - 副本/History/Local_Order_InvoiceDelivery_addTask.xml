@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Histories>
+  <History>
+    <HistoryDateTime>2015-12-02 16:25:10:367</HistoryDateTime>
+    <Request>
+      <Name>addTask</Name>
+      <CategoryName>Local_Order_InvoiceDelivery</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost:24868/InvoiceDelivery/addTask</RequestUrl>
+      <RequestParameters>{"PostTaskList":[{"OrderId":1111,"Source":4,"InvoiceNo":"123456"}]}</RequestParameters>
+      <RequestContentType>application/json</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks />
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>SOA20-Service-AppId: 100001114
+SOA20-Service-HostIP: 10.32.105.123
+SOA20-Response-Status: Failure
+X-SourceFiles: =?UTF-8?B?RDpcU291cmNlQ29kZVxjdHJpcFxIb3RlbC5PcmRlci5DdXN0b21lclxIb3RlbC5PcmRlci5DdXN0b21lci5XU1xTZXJ2aWNlXFNlcnZpY2UuSG9zdFxJbnZvaWNlRGVsaXZlcnlcYWRkVGFzaw==?=
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: CTrip/SOA2.0 Win32NT/.NET,ASP.NET
+Date: Wed, 02 Dec 2015 08:25:10 GMT
+Content-Length: 377
+
+</ResponseHeaders>
+      <ResponseString>{"ResponseStatus":{"Timestamp":"\/Date(1449044710360 0800)\/","Ack":"Failure","Errors":[{"Message":"'Uid' 不能为空字符串.","ErrorCode":"NotEmpty","SeverityCode":"Error","ErrorFields":[{"FieldName":"PostTaskList[0].Uid","ErrorCode":"NotEmpty","Message":"'Uid' 不能为空字符串."}],"ErrorClassification":"ValidationError"}],"Extension":[]},"ResultCode":0,"Errors":[]}</ResponseString>
+      <TotalExecutionTime>26.0078</TotalExecutionTime>
+    </Response>
+    <Remarks>Error</Remarks>
+  </History>
+  <History>
+    <HistoryDateTime>2015-12-02 16:36:14:975</HistoryDateTime>
+    <Request>
+      <Name>addTask</Name>
+      <CategoryName>Local_Order_InvoiceDelivery</CategoryName>
+      <RequestMethod>POST</RequestMethod>
+      <RequestHeaders />
+      <RequestUrl>http://localhost:24868/InvoiceDelivery/addTask</RequestUrl>
+      <RequestParameters>{"PostTaskList":[{"OrderId":1111,"Source":4,"InvoiceNo":"123456","UID":"qxsun"}]}</RequestParameters>
+      <RequestContentType>application/json</RequestContentType>
+      <ClientCertInfo>
+        <StoreName />
+        <StoreLocation />
+        <FindType />
+        <FindValue />
+      </ClientCertInfo>
+      <CredentialInfo>
+        <UserName />
+        <Password />
+        <Domain />
+      </CredentialInfo>
+      <ProxyInfo>
+        <ProxyClientCertInfo />
+        <ProxyCredentialInfo />
+      </ProxyInfo>
+      <Remarks />
+    </Request>
+    <Response>
+      <HttpVersion>1.1</HttpVersion>
+      <Status>200:OK</Status>
+      <ResponseHeaders>SOA20-Service-AppId: 100001114
+SOA20-Service-HostIP: 10.32.105.123
+SOA20-Response-Status: Success
+X-SourceFiles: =?UTF-8?B?RDpcU291cmNlQ29kZVxjdHJpcFxIb3RlbC5PcmRlci5DdXN0b21lclxIb3RlbC5PcmRlci5DdXN0b21lci5XU1xTZXJ2aWNlXFNlcnZpY2UuSG9zdFxJbnZvaWNlRGVsaXZlcnlcYWRkVGFzaw==?=
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: CTrip/SOA2.0 Win32NT/.NET,ASP.NET
+Date: Wed, 02 Dec 2015 08:33:32 GMT
+Content-Length: 204
+
+</ResponseHeaders>
+      <ResponseString>{"ResponseStatus":{"Timestamp":"\/Date(1449045212874 0800)\/","Ack":"Success","Errors":[],"Extension":[]},"ResultCode":1,"Errors":[{"OrderId":1111,"InvoiceNo":"123456","Description":"Unexpected error."}]}</ResponseString>
+      <TotalExecutionTime>1311.1311</TotalExecutionTime>
+    </Response>
+    <Remarks>SUCESS</Remarks>
+  </History>
+  <History>
+  <HistoryDateTime>2015-12-02 20:28:14:267</HistoryDateTime>
+  <Request>
+    <Name>addTask</Name>
+    <CategoryName>Local_Order_InvoiceDelivery</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders />
+    <RequestUrl>http://localhost:24868/InvoiceDelivery/sunadd</RequestUrl>
+    <RequestParameters>{"In1":1,"In2":2}</RequestParameters>
+    <RequestContentType>application/json</RequestContentType>
+    <ClientCertInfo>
+      <StoreName />
+      <StoreLocation />
+      <FindType />
+      <FindValue />
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks />
+  </Request>
+  <Response>
+    <HttpVersion>1.1</HttpVersion>
+    <Status>200:OK</Status>
+    <ResponseHeaders>SOA20-Service-AppId: 100001114
+SOA20-Service-HostIP: 10.32.105.123
+SOA20-Response-Status: Success
+X-SourceFiles: =?UTF-8?B?RDpcU291cmNlQ29kZVxjdHJpcFxIb3RlbC5PcmRlci5DdXN0b21lclxIb3RlbC5PcmRlci5DdXN0b21lci5XU1xTZXJ2aWNlXFNlcnZpY2UuSG9zdFxJbnZvaWNlRGVsaXZlcnlcc3VuYWRk?=
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: CTrip/SOA2.0 Win32NT/.NET,ASP.NET
+Date: Wed, 02 Dec 2015 12:28:14 GMT
+Content-Length: 114
+
+</ResponseHeaders>
+    <ResponseString>{"ResponseStatus":{"Timestamp":"\/Date(1449059294236 0800)\/","Ack":"Success","Errors":[],"Extension":[]},"Sum":2}</ResponseString>
+    <TotalExecutionTime>119.01190000000001</TotalExecutionTime>
+  </Response>
+</History>
+</Histories>

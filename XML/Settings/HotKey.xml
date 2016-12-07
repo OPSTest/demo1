@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HotKeys>
+	<HotKey>
+		<Name>Show</Name>
+		<KeyId>100</KeyId>
+		<PrimaryKey>Alt</PrimaryKey>
+		<SecondKey>A</SecondKey>
+		<DefaultPrimaryKey>Alt</DefaultPrimaryKey>
+		<DefaultSecondKey>A</DefaultSecondKey>
+		<KeyType>1</KeyType>
+		<Description>Show window</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Hide</Name>
+		<KeyId>101</KeyId>
+		<PrimaryKey>Alt</PrimaryKey>
+		<SecondKey>S</SecondKey>
+		<DefaultPrimaryKey>Alt</DefaultPrimaryKey>
+		<DefaultSecondKey>S</DefaultSecondKey>
+		<KeyType>1</KeyType>
+		<Description>Hide window</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Exit</Name>
+		<KeyId>102</KeyId>
+		<PrimaryKey>Alt</PrimaryKey>
+		<SecondKey>D</SecondKey>
+		<DefaultPrimaryKey>Alt</DefaultPrimaryKey>
+		<DefaultSecondKey>D</DefaultSecondKey>
+		<KeyType>1</KeyType>
+		<Description>Exit Application</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Up</Name>
+		<KeyId>103</KeyId>
+		<PrimaryKey>None</PrimaryKey>
+		<SecondKey>Up</SecondKey>
+		<DefaultPrimaryKey>None</DefaultPrimaryKey>
+		<DefaultSecondKey>Up</DefaultSecondKey>
+		<KeyType>2</KeyType>
+		<Description>Select the Up</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Down</Name>
+		<KeyId>104</KeyId>
+		<PrimaryKey>None</PrimaryKey>
+		<SecondKey>Down</SecondKey>
+		<DefaultPrimaryKey>None</DefaultPrimaryKey>
+		<DefaultSecondKey>Down</DefaultSecondKey>
+		<KeyType>2</KeyType>
+		<Description>Select the Down</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Tab</Name>
+		<KeyId>105</KeyId>
+		<PrimaryKey>None</PrimaryKey>
+		<SecondKey>Tab</SecondKey>
+		<DefaultPrimaryKey>None</DefaultPrimaryKey>
+		<DefaultSecondKey>Tab</DefaultSecondKey>
+		<KeyType>2</KeyType>
+		<Description>Select the Next</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Right</Name>
+		<KeyId>106</KeyId>
+		<PrimaryKey>None</PrimaryKey>
+		<SecondKey>Right</SecondKey>
+		<DefaultPrimaryKey>None</DefaultPrimaryKey>
+		<DefaultSecondKey>Right</DefaultSecondKey>
+		<KeyType>2</KeyType>
+		<Description>Select the Right</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Left</Name>
+		<KeyId>107</KeyId>
+		<PrimaryKey>None</PrimaryKey>
+		<SecondKey>Left</SecondKey>
+		<DefaultPrimaryKey>None</DefaultPrimaryKey>
+		<DefaultSecondKey>Left</DefaultSecondKey>
+		<KeyType>2</KeyType>
+		<Description>Select the Left</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+	<HotKey>
+		<Name>Enter</Name>
+		<KeyId>108</KeyId>
+		<PrimaryKey>Alt</PrimaryKey>
+		<SecondKey>Enter</SecondKey>
+		<DefaultPrimaryKey>None</DefaultPrimaryKey>
+		<DefaultSecondKey>Enter</DefaultSecondKey>
+		<KeyType>2</KeyType>
+		<Description>Press the Enter key</Description>
+		<Enabled>true</Enabled>
+	</HotKey>
+</HotKeys>

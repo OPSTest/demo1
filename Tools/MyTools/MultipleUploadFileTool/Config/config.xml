@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <SelectedRunModelName>Onethread_Run_NoStop</SelectedRunModelName>
+  <SelectedWorkInfoId>1</SelectedWorkInfoId>
+  <StatisticsFileName>statistics.txt</StatisticsFileName>
+  <RunModels>
+    <RunModel Name="Onethread_Run_Onetime">
+      <IntervalTime>100000000</IntervalTime>
+      <!--if true, concurrency thread amount will read from config 'MultipleThreadAmount', otherwize will read according actually Processor Count-->
+      <ThreadAmountReadFromConfig>true</ThreadAmountReadFromConfig>
+      <MultipleThreadAmount>1</MultipleThreadAmount>
+      <!--if true, application will run [RunTime] minute, then exit,
+      otherwize, run all the time-->
+      <LimitRunTime>true</LimitRunTime>
+      <!--minute-->
+      <RunTime>100</RunTime>
+    </RunModel>
+    <RunModel Name="Onethread_Run_NoStop">
+      <IntervalTime>10</IntervalTime>
+      <!--if true, concurrency thread amount will read from config 'MultipleThreadAmount', otherwize will read according actually Processor Count-->
+      <ThreadAmountReadFromConfig>true</ThreadAmountReadFromConfig>
+      <MultipleThreadAmount>1</MultipleThreadAmount>
+      <!--if true, application will run [RunTime] minute, then exit,
+      otherwize, run all the time-->
+      <LimitRunTime>false</LimitRunTime>
+      <!--minute-->
+      <RunTime>0</RunTime>
+    </RunModel>
+    <RunModel Name="ActualPrcocessAmountThreads_Run_10minutes">
+      <IntervalTime>10</IntervalTime>
+      <!--if true, concurrency thread amount will read from config 'MultipleThreadAmount', otherwize will read according actually Processor Count-->
+      <ThreadAmountReadFromConfig>false</ThreadAmountReadFromConfig>
+      <MultipleThreadAmount>1</MultipleThreadAmount>
+      <!--if true, application will run [RunTime] minute, then exit,
+      otherwize, run all the time-->
+      <LimitRunTime>true</LimitRunTime>
+      <!--minute-->
+      <RunTime>10</RunTime>
+    </RunModel>
+    <RunModel Name="ActualPrcocessAmountThreads_Run_NoStop">
+      <IntervalTime>10</IntervalTime>
+      <!--if true, concurrency thread amount will read from config 'MultipleThreadAmount', otherwize will read according actually Processor Count-->
+      <ThreadAmountReadFromConfig>false</ThreadAmountReadFromConfig>
+      <MultipleThreadAmount>1</MultipleThreadAmount>
+      <!--if true, application will run [RunTime] minute, then exit,
+      otherwize, run all the time-->
+      <LimitRunTime>false</LimitRunTime>
+      <!--minute-->
+      <RunTime>1</RunTime>
+    </RunModel>
+    <RunModel Name="SpecifiedAmountThreads_Run_NoStop">
+      <IntervalTime>10</IntervalTime>
+      <!--if true, concurrency thread amount will read from config 'MultipleThreadAmount', otherwize will read according actually Processor Count-->
+      <ThreadAmountReadFromConfig>true</ThreadAmountReadFromConfig>
+      <MultipleThreadAmount>16</MultipleThreadAmount>
+      <!--if true, application will run [RunTime] minute, then exit,
+      otherwize, run all the time-->
+      <LimitRunTime>false</LimitRunTime>
+      <!--minute-->
+      <RunTime>1</RunTime>
+    </RunModel>
+  </RunModels>
+  <WorkInfos>
+    <WorkInfo Id="1">
+      <ClassName>UploadBatch.UploadBatchFile</ClassName>
+      <Module>UploadBatch.dll</Module>
+      <FilePath>Works\UpLoadBatch</FilePath>
+      <EntryMethod>Start</EntryMethod>
+      <!--Joson string-->
+      <MethodParameters></MethodParameters>
+      <Description>Upload Batch</Description>
+    </WorkInfo>
+    <WorkInfo Id="2">
+      <ClassName>APICaller.APICaller</ClassName>
+      <Module>APICaller.dll</Module>
+      <FilePath>Works\APICaller</FilePath>
+      <EntryMethod>Start</EntryMethod>
+      <!--Joson string-->
+      <MethodParameters></MethodParameters>
+      <Description>Call Scs API</Description>
+    </WorkInfo>
+  </WorkInfos>
+</Config>

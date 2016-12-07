@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Templates>
+  <Template name="ModernUpdateAccountInfo">
+    <Processors>
+      <Processor name="ModernUpdateAccountInfo" category="Modern" />
+    </Processors>
+    <Input>
+      <Field name="ModernUpdateAccountInfo" internalName="__LineNumber__" type="Int32" />
+      <Field name="UniversalAccountId" internalName="UniversalAccountId" type="String" />
+      <Field name="ModernAccountInfoXML" internalName="ModernAccountInfoXML" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+      <Field name ="Payload" internalName="ResultPayload" type="String" optional="true" />
+    </Output>
+  </Template>
+  <Template name="ModernAccountTestConnection">
+    <Processors>
+      <Processor name="ModernAccountTestConnection" category="Modern" />
+    </Processors>
+    <Input>
+      <Field name="ModernAccountTestConnection" internalName="__LineNumber__" type="Int32" />
+      <Field name="UniversalAccountId" internalName="UniversalAccountId" type="String" />
+    </Input>
+    <Output>
+      <Field name="Process Error" internalName="__ERROR__" type="String" optional="true" />
+      <Field name ="Payload" internalName="ResultPayload" type="String" optional="true" />
+    </Output>
+  </Template>
+</Templates>

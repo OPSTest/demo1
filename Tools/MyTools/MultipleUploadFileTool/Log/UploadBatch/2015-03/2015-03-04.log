@@ -1,0 +1,11 @@
+Error(2015-03-04 09:58:59:846)
+[Message]:One or more errors occurred.
+    INNER: A task was canceled.
+[StackTrace]:   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at UploadBatch.UploadBatchFileHelper.PostJsonAsync[T](String callUrl, MultipartFormDataContent formContent, Cookie[] cookies) in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\UploadBatch\UploadBatchFileHelper.cs:line 120
+   at UploadBatch.UploadBatchFileHelper.internalCreateBatchTask() in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\UploadBatch\UploadBatchFileHelper.cs:line 51
+   at UploadBatch.UploadBatchFileHelper.CreateBatchTask() in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\UploadBatch\UploadBatchFileHelper.cs:line 24
+   at UploadBatch.UploadBatchFile.Start() in d:\SourceCode\SunnyToolManager\C Sharp Source\Sunny\UploadBatch\UploadBatch.cs:line 27
+
