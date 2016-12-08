@@ -14,7 +14,7 @@
 ### 3. 功能
 
 #### 3.1. 发出Http请求
-* 单击下面按钮或者快捷键Alt+W
+* 单击下面按钮或者快捷键Alt+W   
 > ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/2.png)
 > ![step2](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/1.png)
 
