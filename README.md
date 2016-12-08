@@ -20,8 +20,13 @@
 * _GreenTools\XML_ 其他文件都代表了一个tab里面的工具的信息。
 * _GreenTools\Log_ 日志文件。
 
-#### 1.3. 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/GreenTools/README.md)
+#### 1.3. 功能
+
+##### 1.3.1 添加一个tab
+
+##### 1.3.2 删除一个tab
+
+##### 1.3.3 修改一个tab
 
 ### 2. GreenTools\Tools\MyTools\WebRequestTool\HttpRequestClient.exe
 
@@ -33,7 +38,7 @@
 * _GreenTools\Tools\MyTools\WebRequestTool\XML\WebRequestInfo_template.xml_ 是模板文件。
 * _GreenTools\Tools\MyTools\WebRequestTool\XML_ 下其他文件保存http的request信息和response信息。
 * _GreenTools\Tools\MyTools\WebRequestTool\OutPut\RemoteServerCerts_ 保存了请求服务器的cert
-* —GreenTools\Tools\MyTools\WebRequestTool\Log— 日志信息
+* _GreenTools\Tools\MyTools\WebRequestTool\Log_ 日志信息
 
 #### 2.3 其他
 > [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
