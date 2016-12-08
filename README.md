@@ -22,7 +22,7 @@
 
 #### 1.3. 功能
 
-![主界面](https://github.com/sunqixinxin/GreenTools/tree/master/images/SunnyAssistance/1.png)
+![主界面](https://github.com/younghz/moos-young/blob/master/src/SelfCode/v2/mcm_simulation/deallocation_lastest/pic/before_allocation.png)
 
 ##### 1.3.1 添加一个tab
 
