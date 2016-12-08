@@ -11,6 +11,7 @@
   1.1. 介绍：这是个工具收藏箱
   
   1.2. 配置：
+  
     1.2.1. GreenTools\XML\Settings\HotKey.xml 定义一些快捷键。
     
     1.2.2. GreenTools\XML\root.xml|TabTemplete.xml 基本信息和tab的模板
