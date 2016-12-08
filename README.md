@@ -8,5 +8,6 @@
 * GreenTools\Tools\scripts\GreenTools\ 下面是网上下载的工具。
 
 ### 1. GreenTools\Sunny.Assistant.exe
-1.1. 介绍：这是个工具收藏箱
-1.2. 配置：GreenTools\XML\Settings\HotKey.xml 定义一些快捷键。
+  1.1. 介绍：这是个工具收藏箱
+  
+  1.2. 配置：GreenTools\XML\Settings\HotKey.xml 定义一些快捷键。
