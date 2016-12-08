@@ -21,14 +21,16 @@
 * _GreenTools\Log_ 日志文件。
 
 #### 1.3. 功能
-
 ![主界面](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/1.png)
 
 ##### 1.3.1 添加一个tab
+![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
 
 ##### 1.3.2 删除一个tab
+![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
 
 ##### 1.3.3 修改一个tab
+![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
 
 ### 2. GreenTools\Tools\MyTools\WebRequestTool\HttpRequestClient.exe
 
