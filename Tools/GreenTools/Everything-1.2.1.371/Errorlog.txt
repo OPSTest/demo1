@@ -1,0 +1,6 @@
+5/26/2014 6:43:25 PM: Everything 1.2.1.371: .\src\db.cpp(4411): db::_load(): if (65929256 + 78712917 + 4 > 73007144): Invalid folder offset.
+1/12/2015 9:57:44 PM: Everything 1.2.1.371: .\src\db.cpp(18251): db::_update_drive(): DeviceIoControl(0x000000ec,FSCTL_READ_USN_JOURNAL,0x0589fb54,40,0x0589ff7c,65536,0x0589fb50,0x00000000): GetLastError(): 1181
+1/13/2015 1:10:35 PM: Everything 1.2.1.371: .\src\db.cpp(18251): db::_update_drive(): DeviceIoControl(0x0000026c,FSCTL_READ_USN_JOURNAL,0x0589fb54,40,0x0589ff7c,65536,0x0589fb50,0x00000000): GetLastError(): 1181
+5/6/2015 10:51:06 AM: Everything 1.2.1.371: .\src\db.cpp(4411): db::_load(): if (87687208 + 171789717 + 4 > 96534568): Invalid folder offset.
+11/7/2015 10:20:56 PM: Everything 1.2.1.371: .\src\db.cpp(18251): db::_update_drive(): DeviceIoControl(0x000002e4,FSCTL_READ_USN_JOURNAL,0x054bfb54,40,0x054bff7c,65536,0x054bfb50,0x00000000): GetLastError(): 21
+11/9/2015 10:50:32 AM: Everything 1.2.1.371: .\src\db.cpp(18251): db::_update_drive(): DeviceIoControl(0x00000664,FSCTL_READ_USN_JOURNAL,0x0261fb54,40,0x0261ff7c,65536,0x0261fb50,0x00000000): GetLastError(): 1181

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity type="win32" 
+                    name="sdapi.dll" 
+                    version="4.1.13706.0" 
+                    processorArchitecture="x86" 
+  />
+  <file name="sdapi.dll">
+    <comClass description="Source Depot API Object"
+              clsid="{27A2571D-DDA1-4F58-B960-DE1023344C1C}"
+              threadingModel="Both"
+              tlbid="{A6E7E116-5DDE-48FF-97CC-BFA1E4A06B78}"
+    />
+    <comClass description="Source Depot Connection Object"
+              clsid="{877AA945-1CB2-411C-ACD7-C70B1F9E2E32}"
+              threadingModel="Both"
+              tlbid="{A6E7E116-5DDE-48FF-97CC-BFA1E4A06B78}"
+    />
+    <comClass description="Source Depot Utilities Object"
+              clsid="{E7E66D47-2367-47BC-A2F0-7F6D807FE08A}"
+              threadingModel="Both"
+              tlbid="{A6E7E116-5DDE-48FF-97CC-BFA1E4A06B78}"
+    />
+  </file>
+</assembly>
