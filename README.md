@@ -13,7 +13,6 @@
 > 这是个工具收藏箱
 
 #### 1.2. 配置
->
 * _GreenTools\XML\Settings\HotKey.xml_ 定义一些快捷键。
 * _GreenTools\XML\root.xml|TabTemplete.xml_ 基本信息和tab的模板。
 * _GreenTools\XML\ToolStart.xml_ 已经荒废，以前用来做监听QQ发来的命令用的。
@@ -27,12 +26,10 @@
 
 ##### 1.3.2 添加/删除/修改一个tab/粘贴前面复制的Tool
 > 右键空白部分弹出菜单
-
 ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
 
 ##### 1.3.3 查看Tool的位置/删除/Copy/结束这个Tool的所有进程
 > 在要操作的Tool上右键弹出菜单
-
 ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/3.png)
 
 ##### 1.3.4 菜单-刷新单个tab/所有tab上的tools
