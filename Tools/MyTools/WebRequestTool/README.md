@@ -75,4 +75,7 @@
 >> 6 
 7  
 8   
-9abacdefghigklmnopqrstuvwxyz
+9ab
+acd
+
+efghigklmnopqrstuvwxyz
