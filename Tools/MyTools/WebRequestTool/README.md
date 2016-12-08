@@ -44,8 +44,10 @@
 
 #### 3.5. 查找Http request信息
 >
+
 #### 3.6. 查找http response信息
 >
+
 #### 4.7. 切换保存的xml文件
 >
 * Category List面板的空白处双击，选择xml文件  
