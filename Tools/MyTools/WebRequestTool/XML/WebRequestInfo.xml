@@ -1,4 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HttpRequestInfos>
-       <CategoryInfos></CategoryInfos>
+  <CategoryInfos>
+  </CategoryInfos>
+  <HttpRequestInfo>
+  <Name>ListCommits</Name>
+  <CategoryName>Commits</CategoryName>
+  <RequestMethod>GET</RequestMethod>
+  <RequestHeaders />
+  <RequestUrl>https://api.github.com/repos/sunqixinxin/greentools/commits</RequestUrl>
+  <RequestParameters />
+  <RequestContentType>application/json</RequestContentType>
+  <ClientCertInfo>
+    <StoreName />
+    <StoreLocation />
+    <FindType />
+    <FindValue />
+  </ClientCertInfo>
+  <CredentialInfo>
+    <UserName />
+    <Password />
+    <Domain />
+  </CredentialInfo>
+  <ProxyInfo>
+    <ProxyClientCertInfo />
+    <ProxyCredentialInfo />
+  </ProxyInfo>
+  <Remarks>https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository</Remarks>
+</HttpRequestInfo>
 </HttpRequestInfos>
