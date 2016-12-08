@@ -21,7 +21,7 @@
 * _GreenTools\Log_ 日志文件。
 
 #### 1.3. 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
+> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/GreenTools/README.md)
 
 ### 2. GreenTools\Tools\MyTools\WebRequestTool\HttpRequestClient.exe
 
@@ -43,24 +43,21 @@
 #### 3.1 介绍
 > 取色器
 
-#### 3.2 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
-
 ### 4. GreenTools\Tools\MyTools\EncryptAndDecrypt\Sunny.EncryptAndDecrypt.exe
 
 #### 4.1 介绍
 > 加密解密工具
 
 #### 4.2 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
+> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/EncryptAndDecrypt/WebRequestTool/README.md)
 
 ### 5. GreenTools\Tools\MyTools\Robot\Robot.exe
 
 #### 5.1 介绍
-> 智能工具，将你的问题和答案保存到信息库里后，以后可以模糊查询，比如你只要说出关键字，就会给出若干相关答案
+> 智能工具，将你的问题和答案保存到信息库里后，可以模糊查询，比如你只要说出关键字，就会给出若干相关答案
 
 #### 5.2 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
+> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/Robot/README.md)
 
 ### 6. GreenTools\Tools\MyTools\MiscTools\MiscTools.exe
 
@@ -68,4 +65,4 @@
 > 一些不好归类工具集，包含很多，比如日期转换
 
 #### 6.2 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
+> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/MiscTools/README.md)
