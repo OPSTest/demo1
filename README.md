@@ -36,4 +36,4 @@
 * —GreenTools\Tools\MyTools\WebRequestTool\Log— 日志信息
 
 #### 2.3 功能
->略
+> [参考readme]:(https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
