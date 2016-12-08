@@ -25,18 +25,18 @@
 > ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/1.png)
 
 ##### 1.3.2 添加/删除/修改一个tab/粘贴前面复制的Tool
-> 右键空白部分弹出菜单
+> 右键空白部分弹出菜单   
 ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
 
 ##### 1.3.3 查看Tool的位置/删除/Copy/结束这个Tool的所有进程
-> 在要操作的Tool上右键弹出菜单
+> 在要操作的Tool上右键弹出菜单   
 ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/3.png)
 
 ##### 1.3.4 菜单-刷新单个tab/所有tab上的tools
 > ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/5.png)
 
 ##### 1.3.5 菜单-View Log
-> ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/4.png)
+> ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/4.png)   
 ![step2](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/6.png)
 
 ##### 1.3.6 菜单-Setting
