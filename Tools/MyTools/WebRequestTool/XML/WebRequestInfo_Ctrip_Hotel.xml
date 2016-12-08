@@ -1797,4 +1797,88 @@ http://htlws.ctripcorp.com/hotel-order-payment/paymentltpstatusservice.asmx</Req
     </ProxyInfo>
     <Remarks />
   </HttpRequestInfo>
+  <HttpRequestInfo>
+    <Name>GetEmailMLContent</Name>
+    <CategoryName>English_Activitiesws1</CategoryName>
+    <RequestMethod>POST</RequestMethod>
+    <RequestHeaders />
+    <RequestUrl>http://ws-english.fws.qa.nt.ctripcorp.com/english-site-internalws/activitiesws.asmx</RequestUrl>
+    <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+  &lt;Header UserID="110257" RequestID="eaa1961a-7423-4d87-9a2f-1f1df02a6250" RequestType="English.Site.InternalWS.GetEmailMLContent" ClientIP="10.32.105.123" AsyncRequest="false" Timeout="0" MessagePriority="3" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" UseMemoryQ="false" /&gt;
+  &lt;GetEmailMLContentRequest BusinessType="Hotel" LanguageType="NULL" EmailType="Email_Hotel_Empty"&gt;
+    &lt;OrderID&gt;300010649&lt;/OrderID&gt;
+    &lt;Uid&gt;E00025156&lt;/Uid&gt;
+    &lt;BodyContentType&gt;HTML&lt;/BodyContentType&gt;
+    &lt;RemarkInfo /&gt;
+  &lt;/GetEmailMLContentRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+    <RequestContentType>text/xml</RequestContentType>
+    <ClientCertInfo>
+      <StoreName />
+      <StoreLocation />
+      <FindType />
+      <FindValue />
+    </ClientCertInfo>
+    <CredentialInfo>
+      <UserName />
+      <Password />
+      <Domain />
+    </CredentialInfo>
+    <ProxyInfo>
+      <ProxyClientCertInfo />
+      <ProxyCredentialInfo />
+    </ProxyInfo>
+    <Remarks />
+  </HttpRequestInfo>
+  <HttpRequestInfo>
+  <Name>GetEmailMLContent1</Name>
+  <CategoryName>English_Activitiesws</CategoryName>
+  <RequestMethod>POST</RequestMethod>
+  <RequestHeaders />
+  <RequestUrl>http://ws-english.fws.qa.nt.ctripcorp.com/english-site-internalws/activitiesws.asmx</RequestUrl>
+  <RequestParameters>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;Request xmlns="http://tempuri.org/"&gt;
+      &lt;requestXML&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;
+&lt;Request&gt;
+  &lt;Header UserID="110257" RequestID="eaa1961a-7423-4d87-9a2f-1f1df02a6250" RequestType="English.Site.InternalWS.GetEmailMLContent" ClientIP="10.32.105.123" AsyncRequest="false" Timeout="0" MessagePriority="3" AssemblyVersion="2.9.5.0" RequestBodySize="0" SerializeMode="Xml" RouteStep="1" Environment="fws" UseMemoryQ="false" /&gt;
+  &lt;GetEmailMLContentRequest BusinessType="Hotel" LanguageType="NULL" EmailType="Email_Hotel_Empty"&gt;
+    &lt;OrderID&gt;300010649&lt;/OrderID&gt;
+    &lt;Uid&gt;E00025156&lt;/Uid&gt;
+    &lt;BodyContentType&gt;HTML&lt;/BodyContentType&gt;
+    &lt;RemarkInfo /&gt;
+  &lt;/GetEmailMLContentRequest&gt;
+&lt;/Request&gt;]]&gt;
+&lt;/requestXML&gt;
+    &lt;/Request&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</RequestParameters>
+  <RequestContentType>text/xml</RequestContentType>
+  <ClientCertInfo>
+    <StoreName />
+    <StoreLocation />
+    <FindType />
+    <FindValue />
+  </ClientCertInfo>
+  <CredentialInfo>
+    <UserName />
+    <Password />
+    <Domain />
+  </CredentialInfo>
+  <ProxyInfo>
+    <ProxyClientCertInfo />
+    <ProxyCredentialInfo />
+  </ProxyInfo>
+  <Remarks />
+</HttpRequestInfo>
 </HttpRequestInfos>
