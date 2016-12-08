@@ -33,15 +33,7 @@
 #### 2.1 介绍
 >一个http 请求工具，可以管理http的request信息，也可以管理response信息。
 
-#### 2.2 配置
->
-* _GreenTools\Tools\MyTools\WebRequestTool\XML\WebRequestInfo_template.xml_ 是模板文件。
-* _GreenTools\Tools\MyTools\WebRequestTool\XML_ 下其他文件保存http的request信息和response信息。
-* _GreenTools\Tools\MyTools\WebRequestTool\OutPut\RemoteServerCerts_ 保存了请求服务器的cert
-* _GreenTools\Tools\MyTools\WebRequestTool\Log_ 日志信息
-
-#### 2.3 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
+[参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
 
 ### 3. GreenTools\Tools\MyTools\ColorPicker\ColorPicker.exe
 
@@ -53,21 +45,18 @@
 #### 4.1 介绍
 > 加密解密工具
 
-#### 4.2 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/EncryptAndDecrypt/WebRequestTool/README.md)
+[参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/EncryptAndDecrypt/WebRequestTool/README.md)
 
 ### 5. GreenTools\Tools\MyTools\Robot\Robot.exe
 
 #### 5.1 介绍
 > 智能工具，将你的问题和答案保存到信息库里后，可以模糊查询，比如你只要说出关键字，就会给出若干相关答案
 
-#### 5.2 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/Robot/README.md)
+[参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/Robot/README.md)
 
 ### 6. GreenTools\Tools\MyTools\MiscTools\MiscTools.exe
 
 #### 6.1 介绍
 > 一些不好归类工具集，包含很多，比如日期转换
 
-#### 6.2 其他
-> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/MiscTools/README.md)
+[参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/MiscTools/README.md)
