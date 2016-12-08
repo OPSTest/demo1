@@ -21,21 +21,31 @@
 * _GreenTools\Log_ 日志文件。
 
 #### 1.3. 功能
-![主界面](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/1.png)
 
-##### 1.3.1 添加一个tab
-![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
+##### 1.3.1 主界面
+> ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/1.png)
 
-##### 1.3.2 删除一个tab
-![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
+##### 1.3.2 添加/删除/修改一个tab
+> ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
 
-##### 1.3.3 修改一个tab
-![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
+##### 1.3.3 查看Tool的位置/删除/Copy/结束这个Tool的所有进程
+> ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/3.png)
+
+##### 1.3.4 菜单-刷新单个tab/所有tab上的tools
+> ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/5.png)
+
+##### 1.3.5 菜单-View Log
+> ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/4.png)
+![step2](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/6.png)
+
+##### 1.3.6 菜单-Setting
+> ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/4.png)
+![step2](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/7.png)
 
 ### 2. GreenTools\Tools\MyTools\WebRequestTool\HttpRequestClient.exe
 
 #### 2.1 介绍
->一个http 请求工具，可以管理http的request信息，也可以管理response信息。
+> 一个http 请求工具，可以管理http的request信息，也可以管理response信息。
 
 [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
 
