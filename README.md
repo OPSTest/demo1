@@ -27,7 +27,8 @@
 
 ##### 1.3.2 添加/删除/修改一个tab/粘贴前面复制的Tool
 > 右键空白部分弹出菜单
-> ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
+
+![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/SunnyAssistance/2.png)
 
 ##### 1.3.3 查看Tool的位置/删除/Copy/结束这个Tool的所有进程
 > 在要操作的Tool上右键弹出菜单
