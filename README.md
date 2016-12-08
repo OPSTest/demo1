@@ -1,7 +1,7 @@
 # Green Tools
 
 ### 介绍
-* Green Tools收藏了很多绿色免安装过的工具，有些是网上下载的，有些是自己写的。
+> Green Tools收藏了很多**绿色免安装**的工具，有些是网上下载的，有些是自己写的。
 * GreenTools\下面是自己做的一个工具，相当于工具收藏箱。
 * GreenTools\Tools\MyTools\ 下面是自己做的一些工具。
 * GreenTools\Tools\scripts\ 下面是一些有用的脚本。
