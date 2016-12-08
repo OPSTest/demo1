@@ -13,14 +13,11 @@
 
     这是个工具收藏箱
 1.2. **配置**
-
-    1.2.1. GreenTools\XML\Settings\HotKey.xml 定义一些快捷键。
-    
-    1.2.2. GreenTools\XML\root.xml|TabTemplete.xml 基本信息和tab的模板。
-    
-    1.2.3. GreenTools\XML\ToolStart.xml 已经荒废，以前用来做监听QQ发来的命令用的。
-    1.2.4. GreenTools\XML\ 其他文件都代表了一个tab里面的工具的信息。
-    1.2.5. GreenTools\Log\ 日志文件。
+* GreenTools\XML\Settings\HotKey.xml 定义一些快捷键。
+* GreenTools\XML\root.xml|TabTemplete.xml 基本信息和tab的模板。
+* GreenTools\XML\ToolStart.xml 已经荒废，以前用来做监听QQ发来的命令用的。
+* GreenTools\XML\ 其他文件都代表了一个tab里面的工具的信息。
+* GreenTools\Log\ 日志文件。
 
 ### 2. GreenTools\Tools\MyTools\WebRequestTool\HttpRequestClient.exe
 
