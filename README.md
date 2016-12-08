@@ -1,4 +1,4 @@
-## Green Tools
+# Green Tools
 
 ### 介绍
 * Green Tools收藏了很多绿色免安装过的工具，有些是网上下载的，有些是自己写的。
@@ -21,7 +21,7 @@
 * _GreenTools\Log_ 日志文件。
 
 #### 1.3. 功能
-> 略
+> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
 
 ### 2. GreenTools\Tools\MyTools\WebRequestTool\HttpRequestClient.exe
 
@@ -36,4 +36,36 @@
 * —GreenTools\Tools\MyTools\WebRequestTool\Log— 日志信息
 
 #### 2.3 功能
+> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
+
+### 3. GreenTools\Tools\MyTools\ColorPicker\ColorPicker.exe
+
+#### 3.1 介绍
+> 取色器
+
+#### 3.2 功能
+> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
+
+### 4. GreenTools\Tools\MyTools\EncryptAndDecrypt\Sunny.EncryptAndDecrypt.exe
+
+#### 4.1 介绍
+> 加密解密工具
+
+#### 4.2 功能
+> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
+
+### 5. GreenTools\Tools\MyTools\Robot\Robot.exe
+
+#### 5.1 介绍
+> 智能工具，将你的问题和答案保存到信息库里后，以后可以模糊查询，比如你只要说出关键字，就会给出若干相关答案
+
+#### 5.2 功能
+> [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
+
+### 6. GreenTools\Tools\MyTools\MiscTools\MiscTools.exe
+
+#### 6.1 介绍
+> 一些不好归类工具集，包含很多，比如日期转换
+
+#### 6.2 功能
 > [参考readme](https://github.com/sunqixinxin/GreenTools/blob/master/Tools/MyTools/WebRequestTool/README.md)
