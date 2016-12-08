@@ -42,9 +42,11 @@
 #### 3.6. 查找http response信息
 
 #### 4.7. 切换保存的xml文件
-* Category List面板的空白处双击，选择xml文件   
-![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/10.png)   
+> * Category List面板的空白处双击，选择xml文件  
+![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/10.png)  
 ![step2](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/11.png)
+
+
 
 
 
