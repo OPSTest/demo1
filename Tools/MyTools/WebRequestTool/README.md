@@ -17,7 +17,6 @@
 * 单击按钮
 ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/2.png)
 或者快捷键**Alt+W**
-
 ![step2](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/1.png)
 
 #### 3.1. 修改/新加一条Http request信息
@@ -27,9 +26,9 @@
 * 右边会生成新保存的记录
 
 #### 3.2. 删除一条Http request请求信息
-* 确认下面的信息是否是要删除的
+* 确认如图信息是否是要删除的
 ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/8.png)
-* 单击下面的按钮
+* 单击删除按钮
 ![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/4.png)
 
 #### 3.4. 自动保存一条http response信息
@@ -44,4 +43,4 @@
 
 #### 4.7. 切换保存的xml文件
 * Category List面板的空白处双击，选择xml文件
-![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/6.png)
+![step1](https://github.com/sunqixinxin/GreenTools/blob/master/images/HttpRequest/11.png)
